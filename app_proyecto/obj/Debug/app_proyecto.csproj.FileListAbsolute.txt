@@ -1,0 +1,14 @@
+C:\Users\Eduardo\Desktop\ProyI\app_proyecto\app_proyecto\bin\Debug\app_proyecto.exe.config
+C:\Users\i201510050\Desktop\ProyI\app_proyecto\app_proyecto\obj\Debug\app_proyecto.csprojResolveAssemblyReference.cache
+C:\Users\i201510050\Desktop\ProyI\app_proyecto\app_proyecto\obj\Debug\app_proyecto.Login.resources
+C:\Users\i201510050\Desktop\ProyI\app_proyecto\app_proyecto\obj\Debug\app_proyecto.Properties.Resources.resources
+C:\Users\i201510050\Desktop\ProyI\app_proyecto\app_proyecto\obj\Debug\app_proyecto.csproj.GenerateResource.Cache
+C:\Users\i201510050\Desktop\ProyI\app_proyecto\app_proyecto\bin\Debug\app_proyecto.exe.config
+C:\Users\i201510050\Desktop\ProyI\app_proyecto\app_proyecto\bin\Debug\app_proyecto.exe
+C:\Users\i201510050\Desktop\ProyI\app_proyecto\app_proyecto\bin\Debug\app_proyecto.pdb
+C:\Users\i201510050\Desktop\ProyI\app_proyecto\app_proyecto\obj\Debug\app_proyecto.exe
+C:\Users\i201510050\Desktop\ProyI\app_proyecto\app_proyecto\obj\Debug\app_proyecto.pdb
+C:\Users\i201510050\Desktop\ProyI\app_proyecto\app_proyecto\obj\Debug\app_proyecto.Menu.resources
+C:\Users\i201510050\Desktop\ProyI\app_proyecto\app_proyecto\obj\Debug\app_proyecto.TipoUsuario.resources
+C:\Users\i201510050\Desktop\ProyI\app_proyecto\app_proyecto\obj\Debug\app_proyecto.ReconocerUsuario.resources
+C:\Users\i201510050\Desktop\ProyI\app_proyecto\app_proyecto\obj\Debug\app_proyecto.GenerarReclamo.resources
