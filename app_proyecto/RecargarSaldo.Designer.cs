@@ -28,58 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblTitulo = new System.Windows.Forms.Label();
+            this.lblDni = new System.Windows.Forms.Label();
+            this.txtDni = new System.Windows.Forms.TextBox();
+            this.txtMonto = new System.Windows.Forms.TextBox();
+            this.lblMonto = new System.Windows.Forms.Label();
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lblTitulo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(59, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(175, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Recargar Saldo";
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(59, 9);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(175, 25);
+            this.lblTitulo.TabIndex = 0;
+            this.lblTitulo.Text = "Recargar Saldo";
             // 
-            // label2
+            // lblDni
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(17, 73);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = " DNI :";
+            this.lblDni.AutoSize = true;
+            this.lblDni.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDni.Location = new System.Drawing.Point(17, 73);
+            this.lblDni.Name = "lblDni";
+            this.lblDni.Size = new System.Drawing.Size(49, 20);
+            this.lblDni.TabIndex = 1;
+            this.lblDni.Text = " DNI :";
             // 
-            // textBox1
+            // txtDni
             // 
-            this.textBox1.Location = new System.Drawing.Point(85, 73);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(178, 20);
-            this.textBox1.TabIndex = 2;
+            this.txtDni.Location = new System.Drawing.Point(85, 73);
+            this.txtDni.Name = "txtDni";
+            this.txtDni.Size = new System.Drawing.Size(178, 20);
+            this.txtDni.TabIndex = 2;
             // 
-            // textBox2
+            // txtMonto
             // 
-            this.textBox2.Location = new System.Drawing.Point(85, 112);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(178, 20);
-            this.textBox2.TabIndex = 4;
+            this.txtMonto.Location = new System.Drawing.Point(85, 112);
+            this.txtMonto.Name = "txtMonto";
+            this.txtMonto.Size = new System.Drawing.Size(178, 20);
+            this.txtMonto.TabIndex = 4;
             // 
-            // label3
+            // lblMonto
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(17, 112);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 20);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Monto :";
+            this.lblMonto.AutoSize = true;
+            this.lblMonto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMonto.Location = new System.Drawing.Point(17, 112);
+            this.lblMonto.Name = "lblMonto";
+            this.lblMonto.Size = new System.Drawing.Size(62, 20);
+            this.lblMonto.TabIndex = 3;
+            this.lblMonto.Text = "Monto :";
             // 
             // btnConfirmar
             // 
@@ -108,11 +108,11 @@
             this.ClientSize = new System.Drawing.Size(285, 233);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnConfirmar);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtMonto);
+            this.Controls.Add(this.lblMonto);
+            this.Controls.Add(this.txtDni);
+            this.Controls.Add(this.lblDni);
+            this.Controls.Add(this.lblTitulo);
             this.Name = "RecargarSaldo";
             this.Text = "Recargar Saldo";
             this.ResumeLayout(false);
@@ -122,11 +122,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.Label lblDni;
+        private System.Windows.Forms.TextBox txtDni;
+        private System.Windows.Forms.TextBox txtMonto;
+        private System.Windows.Forms.Label lblMonto;
         private System.Windows.Forms.Button btnConfirmar;
         private System.Windows.Forms.Button btnCancelar;
     }
