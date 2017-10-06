@@ -52,6 +52,12 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="RecargarMáquina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecargarMáquina.Designer.cs">
+      <DependentUpon>RecargarMáquina.cs</DependentUpon>
+    </Compile>
     <Compile Include="RecargarSaldo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecargarMáquina.resx">
+      <DependentUpon>RecargarMáquina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RecargarSaldo.resx">
       <DependentUpon>RecargarSaldo.cs</DependentUpon>
