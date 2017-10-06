@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace app_proyecto
 {
-    public partial class Prueba : Form
+    public partial class RegistrarUsuario : Form
     {
-        public Prueba()
+        public RegistrarUsuario()
         {
             InitializeComponent();
         }

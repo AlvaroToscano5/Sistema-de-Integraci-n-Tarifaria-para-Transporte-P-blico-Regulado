@@ -46,17 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActualizarMobiliarioEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizarMobiliarioEquipo.Designer.cs">
+      <DependentUpon>ActualizarMobiliarioEquipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActualizarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizarUsuario.Designer.cs">
+      <DependentUpon>ActualizarUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Prueba.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Prueba.Designer.cs">
-      <DependentUpon>Prueba.cs</DependentUpon>
     </Compile>
     <Compile Include="RecargarMáquina.cs">
       <SubType>Form</SubType>
@@ -69,6 +75,18 @@
     </Compile>
     <Compile Include="RecargarSaldo.Designer.cs">
       <DependentUpon>RecargarSaldo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarMobiliarioEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarMobiliarioEquipo.Designer.cs">
+      <DependentUpon>RegistrarMobiliarioEquipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarUsuario.Designer.cs">
+      <DependentUpon>RegistrarUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="TipoUsuario.cs">
       <SubType>Form</SubType>
@@ -96,6 +114,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ActualizarMobiliarioEquipo.resx">
+      <DependentUpon>ActualizarMobiliarioEquipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActualizarUsuario.resx">
+      <DependentUpon>ActualizarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +128,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RecargarSaldo.resx">
       <DependentUpon>RecargarSaldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarMobiliarioEquipo.resx">
+      <DependentUpon>RegistrarMobiliarioEquipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarUsuario.resx">
+      <DependentUpon>RegistrarUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TipoUsuario.resx">
       <DependentUpon>TipoUsuario.cs</DependentUpon>
