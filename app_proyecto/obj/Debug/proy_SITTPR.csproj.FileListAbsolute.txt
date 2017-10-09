@@ -1,0 +1,3 @@
+C:\Users\nahomy\Desktop\prueba\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\bin\Debug\app_proyecto.exe.config
+C:\Users\nahomy\Desktop\prueba\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.exe
+C:\Users\nahomy\Desktop\prueba\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.pdb
