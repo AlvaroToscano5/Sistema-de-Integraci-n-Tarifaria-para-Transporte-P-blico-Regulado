@@ -31,7 +31,7 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblDni = new System.Windows.Forms.Label();
             this.btnBuscar = new System.Windows.Forms.Button();
-            this.btnActualizar = new System.Windows.Forms.Button();
+            this.btnGrabar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.txtDni = new System.Windows.Forms.TextBox();
             this.lblTipo = new System.Windows.Forms.Label();
@@ -71,14 +71,14 @@
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
             // 
-            // btnActualizar
+            // btnGrabar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(29, 305);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(79, 33);
-            this.btnActualizar.TabIndex = 6;
-            this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnGrabar.Location = new System.Drawing.Point(29, 305);
+            this.btnGrabar.Name = "btnGrabar";
+            this.btnGrabar.Size = new System.Drawing.Size(79, 33);
+            this.btnGrabar.TabIndex = 6;
+            this.btnGrabar.Text = "Grabar";
+            this.btnGrabar.UseVisualStyleBackColor = true;
             // 
             // btnCancelar
             // 
@@ -150,7 +150,7 @@
             this.Controls.Add(this.txtDni);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnActualizar);
+            this.Controls.Add(this.btnGrabar);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblDni);
@@ -169,7 +169,7 @@
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblDni;
         private System.Windows.Forms.Button btnBuscar;
-        private System.Windows.Forms.Button btnActualizar;
+        private System.Windows.Forms.Button btnGrabar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.TextBox txtDni;
         private System.Windows.Forms.Label lblTipo;

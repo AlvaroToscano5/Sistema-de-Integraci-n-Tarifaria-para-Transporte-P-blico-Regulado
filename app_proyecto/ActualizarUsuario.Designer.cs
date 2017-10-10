@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.lblNumero = new System.Windows.Forms.Label();
-            this.lblCodigo = new System.Windows.Forms.Label();
             this.cboNacionalidad = new System.Windows.Forms.ComboBox();
             this.cboTipo = new System.Windows.Forms.ComboBox();
             this.lblTipo = new System.Windows.Forms.Label();
@@ -46,8 +44,10 @@
             this.txtDNI = new System.Windows.Forms.TextBox();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblDni = new System.Windows.Forms.Label();
-            this.btnActualizar = new System.Windows.Forms.Button();
+            this.btnGrabar = new System.Windows.Forms.Button();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
+            this.lblNumero = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCancelar
@@ -58,26 +58,6 @@
             this.btnCancelar.TabIndex = 44;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
-            // 
-            // lblNumero
-            // 
-            this.lblNumero.AutoSize = true;
-            this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero.Location = new System.Drawing.Point(106, 45);
-            this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(93, 20);
-            this.lblNumero.TabIndex = 43;
-            this.lblNumero.Text = "U00000001";
-            // 
-            // lblCodigo
-            // 
-            this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodigo.Location = new System.Drawing.Point(8, 45);
-            this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(67, 20);
-            this.lblCodigo.TabIndex = 42;
-            this.lblCodigo.Text = "Código :";
             // 
             // cboNacionalidad
             // 
@@ -215,32 +195,49 @@
             this.lblDni.TabIndex = 25;
             this.lblDni.Text = "DNI :";
             // 
-            // btnActualizar
+            // btnGrabar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(125, 203);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(139, 26);
-            this.btnActualizar.TabIndex = 24;
-            this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnGrabar.Location = new System.Drawing.Point(125, 203);
+            this.btnGrabar.Name = "btnGrabar";
+            this.btnGrabar.Size = new System.Drawing.Size(139, 26);
+            this.btnGrabar.TabIndex = 24;
+            this.btnGrabar.Text = "Grabar";
+            this.btnGrabar.UseVisualStyleBackColor = true;
+            // 
+            // txtCodigo
+            // 
+            this.txtCodigo.Location = new System.Drawing.Point(110, 44);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(119, 20);
+            this.txtCodigo.TabIndex = 118;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(212, 43);
+            this.btnBuscar.Location = new System.Drawing.Point(237, 42);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(28, 26);
-            this.btnBuscar.TabIndex = 45;
+            this.btnBuscar.Size = new System.Drawing.Size(27, 26);
+            this.btnBuscar.TabIndex = 117;
             this.btnBuscar.UseVisualStyleBackColor = true;
+            // 
+            // lblNumero
+            // 
+            this.lblNumero.AutoSize = true;
+            this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero.Location = new System.Drawing.Point(8, 44);
+            this.lblNumero.Name = "lblNumero";
+            this.lblNumero.Size = new System.Drawing.Size(33, 20);
+            this.lblNumero.TabIndex = 116;
+            this.lblNumero.Text = "N° :";
             // 
             // ActualizarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(532, 244);
+            this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.btnBuscar);
-            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.lblNumero);
-            this.Controls.Add(this.lblCodigo);
+            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.cboNacionalidad);
             this.Controls.Add(this.cboTipo);
             this.Controls.Add(this.lblTipo);
@@ -256,7 +253,7 @@
             this.Controls.Add(this.txtDNI);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.lblDni);
-            this.Controls.Add(this.btnActualizar);
+            this.Controls.Add(this.btnGrabar);
             this.Name = "ActualizarUsuario";
             this.Text = "Actualizar Usuario";
             this.ResumeLayout(false);
@@ -267,8 +264,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.Label lblNumero;
-        private System.Windows.Forms.Label lblCodigo;
         private System.Windows.Forms.ComboBox cboNacionalidad;
         private System.Windows.Forms.ComboBox cboTipo;
         private System.Windows.Forms.Label lblTipo;
@@ -284,7 +279,9 @@
         private System.Windows.Forms.TextBox txtDNI;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblDni;
-        private System.Windows.Forms.Button btnActualizar;
+        private System.Windows.Forms.Button btnGrabar;
+        private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Label lblNumero;
     }
 }

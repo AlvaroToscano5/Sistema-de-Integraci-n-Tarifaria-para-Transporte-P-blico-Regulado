@@ -28,13 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblActualizar = new System.Windows.Forms.Label();
+            this.lblGrabar = new System.Windows.Forms.Label();
             this.txtPlaca = new System.Windows.Forms.TextBox();
             this.lblPlaca = new System.Windows.Forms.Label();
             this.cboEstado = new System.Windows.Forms.ComboBox();
             this.btnEquipo = new System.Windows.Forms.Button();
             this.btnMobiliario = new System.Windows.Forms.Button();
-            this.lblNumero = new System.Windows.Forms.Label();
             this.cboTipo = new System.Windows.Forms.ComboBox();
             this.cboEstacion = new System.Windows.Forms.ComboBox();
             this.cboProveedor = new System.Windows.Forms.ComboBox();
@@ -52,21 +51,22 @@
             this.lblProveedor = new System.Windows.Forms.Label();
             this.lblCantidad = new System.Windows.Forms.Label();
             this.lblDescripcion = new System.Windows.Forms.Label();
-            this.lblCódigo = new System.Windows.Forms.Label();
+            this.lblNumero = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // lblActualizar
+            // lblGrabar
             // 
-            this.lblActualizar.AutoSize = true;
-            this.lblActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblActualizar.Location = new System.Drawing.Point(257, 61);
-            this.lblActualizar.Name = "lblActualizar";
-            this.lblActualizar.Size = new System.Drawing.Size(87, 20);
-            this.lblActualizar.TabIndex = 112;
-            this.lblActualizar.Text = "Actualizar :";
+            this.lblGrabar.AutoSize = true;
+            this.lblGrabar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGrabar.Location = new System.Drawing.Point(257, 61);
+            this.lblGrabar.Name = "lblGrabar";
+            this.lblGrabar.Size = new System.Drawing.Size(67, 20);
+            this.lblGrabar.TabIndex = 112;
+            this.lblGrabar.Text = "Grabar :";
             // 
             // txtPlaca
             // 
@@ -110,16 +110,6 @@
             this.btnMobiliario.TabIndex = 107;
             this.btnMobiliario.Text = "Mobiliario";
             this.btnMobiliario.UseVisualStyleBackColor = true;
-            // 
-            // lblNumero
-            // 
-            this.lblNumero.AutoSize = true;
-            this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero.Location = new System.Drawing.Point(84, 61);
-            this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(87, 20);
-            this.lblNumero.TabIndex = 106;
-            this.lblNumero.Text = "ME000001";
             // 
             // cboTipo
             // 
@@ -270,15 +260,15 @@
             this.lblDescripcion.TabIndex = 89;
             this.lblDescripcion.Text = "Descripción :\r\n";
             // 
-            // lblCódigo
+            // lblNumero
             // 
-            this.lblCódigo.AutoSize = true;
-            this.lblCódigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCódigo.Location = new System.Drawing.Point(13, 61);
-            this.lblCódigo.Name = "lblCódigo";
-            this.lblCódigo.Size = new System.Drawing.Size(67, 20);
-            this.lblCódigo.TabIndex = 88;
-            this.lblCódigo.Text = "Código :";
+            this.lblNumero.AutoSize = true;
+            this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero.Location = new System.Drawing.Point(11, 61);
+            this.lblNumero.Name = "lblNumero";
+            this.lblNumero.Size = new System.Drawing.Size(33, 20);
+            this.lblNumero.TabIndex = 88;
+            this.lblNumero.Text = "N° :";
             // 
             // lblTitulo
             // 
@@ -307,20 +297,27 @@
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
+            // txtCodigo
+            // 
+            this.txtCodigo.Location = new System.Drawing.Point(50, 61);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(119, 20);
+            this.txtCodigo.TabIndex = 115;
+            // 
             // ActualizarMobiliarioEquipo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(605, 285);
+            this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnBuscar);
-            this.Controls.Add(this.lblActualizar);
+            this.Controls.Add(this.lblGrabar);
             this.Controls.Add(this.txtPlaca);
             this.Controls.Add(this.lblPlaca);
             this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.btnEquipo);
             this.Controls.Add(this.btnMobiliario);
-            this.Controls.Add(this.lblNumero);
             this.Controls.Add(this.cboTipo);
             this.Controls.Add(this.cboEstacion);
             this.Controls.Add(this.cboProveedor);
@@ -338,7 +335,7 @@
             this.Controls.Add(this.lblProveedor);
             this.Controls.Add(this.lblCantidad);
             this.Controls.Add(this.lblDescripcion);
-            this.Controls.Add(this.lblCódigo);
+            this.Controls.Add(this.lblNumero);
             this.Controls.Add(this.lblTitulo);
             this.Name = "ActualizarMobiliarioEquipo";
             this.Text = "Actualizar Mobiliario/Equipo";
@@ -349,13 +346,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblActualizar;
+        private System.Windows.Forms.Label lblGrabar;
         private System.Windows.Forms.TextBox txtPlaca;
         private System.Windows.Forms.Label lblPlaca;
         private System.Windows.Forms.ComboBox cboEstado;
         private System.Windows.Forms.Button btnEquipo;
         private System.Windows.Forms.Button btnMobiliario;
-        private System.Windows.Forms.Label lblNumero;
         private System.Windows.Forms.ComboBox cboTipo;
         private System.Windows.Forms.ComboBox cboEstacion;
         private System.Windows.Forms.ComboBox cboProveedor;
@@ -373,9 +369,10 @@
         private System.Windows.Forms.Label lblProveedor;
         private System.Windows.Forms.Label lblCantidad;
         private System.Windows.Forms.Label lblDescripcion;
-        private System.Windows.Forms.Label lblCódigo;
+        private System.Windows.Forms.Label lblNumero;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.TextBox txtCodigo;
     }
 }

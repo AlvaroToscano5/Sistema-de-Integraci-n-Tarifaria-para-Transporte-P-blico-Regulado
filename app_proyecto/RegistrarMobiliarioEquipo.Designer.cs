@@ -28,12 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblCodigo = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
-            this.lblNumero = new System.Windows.Forms.Label();
             this.btnMobiliario = new System.Windows.Forms.Button();
             this.btnEquipo = new System.Windows.Forms.Button();
-            this.lblRegistrar = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.txtPlaca = new System.Windows.Forms.TextBox();
             this.lblPlaca = new System.Windows.Forms.Label();
@@ -55,17 +52,10 @@
             this.lblProveedor = new System.Windows.Forms.Label();
             this.lblCantidad = new System.Windows.Forms.Label();
             this.lblDescripcion = new System.Windows.Forms.Label();
+            this.lblCodigo = new System.Windows.Forms.Label();
+            this.lblNumero = new System.Windows.Forms.Label();
+            this.lblGrabar = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // lblCodigo
-            // 
-            this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodigo.Location = new System.Drawing.Point(12, 61);
-            this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(67, 20);
-            this.lblCodigo.TabIndex = 53;
-            this.lblCodigo.Text = "Código :";
             // 
             // lblTitulo
             // 
@@ -76,16 +66,6 @@
             this.lblTitulo.Size = new System.Drawing.Size(275, 21);
             this.lblTitulo.TabIndex = 52;
             this.lblTitulo.Text = "REGISTRAR MOBILIARIO/EQUIPO";
-            // 
-            // lblNumero
-            // 
-            this.lblNumero.AutoSize = true;
-            this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero.Location = new System.Drawing.Point(83, 61);
-            this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(87, 20);
-            this.lblNumero.TabIndex = 80;
-            this.lblNumero.Text = "ME000001";
             // 
             // btnMobiliario
             // 
@@ -104,16 +84,6 @@
             this.btnEquipo.TabIndex = 82;
             this.btnEquipo.Text = "Equipo";
             this.btnEquipo.UseVisualStyleBackColor = true;
-            // 
-            // lblRegistrar
-            // 
-            this.lblRegistrar.AutoSize = true;
-            this.lblRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRegistrar.Location = new System.Drawing.Point(256, 61);
-            this.lblRegistrar.Name = "lblRegistrar";
-            this.lblRegistrar.Size = new System.Drawing.Size(82, 20);
-            this.lblRegistrar.TabIndex = 86;
-            this.lblRegistrar.Text = "Registrar :";
             // 
             // btnCancelar
             // 
@@ -298,11 +268,44 @@
             this.lblDescripcion.TabIndex = 115;
             this.lblDescripcion.Text = "Descripción :\r\n";
             // 
+            // lblCodigo
+            // 
+            this.lblCodigo.AutoSize = true;
+            this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCodigo.Location = new System.Drawing.Point(111, 61);
+            this.lblCodigo.Name = "lblCodigo";
+            this.lblCodigo.Size = new System.Drawing.Size(105, 20);
+            this.lblCodigo.TabIndex = 137;
+            this.lblCodigo.Text = "ME00000001";
+            // 
+            // lblNumero
+            // 
+            this.lblNumero.AutoSize = true;
+            this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero.Location = new System.Drawing.Point(13, 61);
+            this.lblNumero.Name = "lblNumero";
+            this.lblNumero.Size = new System.Drawing.Size(33, 20);
+            this.lblNumero.TabIndex = 136;
+            this.lblNumero.Text = "N° :";
+            // 
+            // lblGrabar
+            // 
+            this.lblGrabar.AutoSize = true;
+            this.lblGrabar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGrabar.Location = new System.Drawing.Point(270, 61);
+            this.lblGrabar.Name = "lblGrabar";
+            this.lblGrabar.Size = new System.Drawing.Size(67, 20);
+            this.lblGrabar.TabIndex = 138;
+            this.lblGrabar.Text = "Grabar :";
+            // 
             // RegistrarMobiliarioEquipo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(605, 287);
+            this.Controls.Add(this.lblGrabar);
+            this.Controls.Add(this.lblCodigo);
+            this.Controls.Add(this.lblNumero);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.txtPlaca);
             this.Controls.Add(this.lblPlaca);
@@ -324,11 +327,8 @@
             this.Controls.Add(this.lblProveedor);
             this.Controls.Add(this.lblCantidad);
             this.Controls.Add(this.lblDescripcion);
-            this.Controls.Add(this.lblRegistrar);
             this.Controls.Add(this.btnEquipo);
             this.Controls.Add(this.btnMobiliario);
-            this.Controls.Add(this.lblNumero);
-            this.Controls.Add(this.lblCodigo);
             this.Controls.Add(this.lblTitulo);
             this.Name = "RegistrarMobiliarioEquipo";
             this.Text = "Registrar Mobiliario/Equipo";
@@ -338,12 +338,9 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label lblCodigo;
         private System.Windows.Forms.Label lblTitulo;
-        private System.Windows.Forms.Label lblNumero;
         private System.Windows.Forms.Button btnMobiliario;
         private System.Windows.Forms.Button btnEquipo;
-        private System.Windows.Forms.Label lblRegistrar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.TextBox txtPlaca;
         private System.Windows.Forms.Label lblPlaca;
@@ -365,5 +362,8 @@
         private System.Windows.Forms.Label lblProveedor;
         private System.Windows.Forms.Label lblCantidad;
         private System.Windows.Forms.Label lblDescripcion;
+        private System.Windows.Forms.Label lblCodigo;
+        private System.Windows.Forms.Label lblNumero;
+        private System.Windows.Forms.Label lblGrabar;
     }
 }

@@ -31,10 +31,7 @@
             this.btnExtranjero = new System.Windows.Forms.Button();
             this.btnPeruano = new System.Windows.Forms.Button();
             this.lblTitulo = new System.Windows.Forms.Label();
-            this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.lblNumero = new System.Windows.Forms.Label();
-            this.lblCodigo = new System.Windows.Forms.Label();
             this.cboNacionalidad = new System.Windows.Forms.ComboBox();
             this.cboTipo = new System.Windows.Forms.ComboBox();
             this.lblTipo = new System.Windows.Forms.Label();
@@ -49,6 +46,9 @@
             this.lblNombre = new System.Windows.Forms.Label();
             this.txtDNI = new System.Windows.Forms.TextBox();
             this.lblDni = new System.Windows.Forms.Label();
+            this.lblCodigo = new System.Windows.Forms.Label();
+            this.lblNumero = new System.Windows.Forms.Label();
+            this.btnGrabar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnExtranjero
@@ -79,15 +79,6 @@
             this.lblTitulo.TabIndex = 26;
             this.lblTitulo.Text = "REGISTRAR USUARIO";
             // 
-            // btnRegistrar
-            // 
-            this.btnRegistrar.Location = new System.Drawing.Point(129, 208);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(139, 26);
-            this.btnRegistrar.TabIndex = 24;
-            this.btnRegistrar.Text = "Registrar";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
-            // 
             // btnCancelar
             // 
             this.btnCancelar.Location = new System.Drawing.Point(276, 208);
@@ -97,30 +88,10 @@
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
-            // lblNumero
-            // 
-            this.lblNumero.AutoSize = true;
-            this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero.Location = new System.Drawing.Point(112, 50);
-            this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(93, 20);
-            this.lblNumero.TabIndex = 60;
-            this.lblNumero.Text = "U00000001";
-            // 
-            // lblCodigo
-            // 
-            this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodigo.Location = new System.Drawing.Point(14, 50);
-            this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(67, 20);
-            this.lblCodigo.TabIndex = 59;
-            this.lblCodigo.Text = "Código :";
-            // 
             // cboNacionalidad
             // 
             this.cboNacionalidad.FormattingEnabled = true;
-            this.cboNacionalidad.Location = new System.Drawing.Point(386, 117);
+            this.cboNacionalidad.Location = new System.Drawing.Point(386, 115);
             this.cboNacionalidad.Name = "cboNacionalidad";
             this.cboNacionalidad.Size = new System.Drawing.Size(134, 21);
             this.cboNacionalidad.TabIndex = 58;
@@ -128,7 +99,7 @@
             // cboTipo
             // 
             this.cboTipo.FormattingEnabled = true;
-            this.cboTipo.Location = new System.Drawing.Point(386, 147);
+            this.cboTipo.Location = new System.Drawing.Point(386, 142);
             this.cboTipo.Name = "cboTipo";
             this.cboTipo.Size = new System.Drawing.Size(134, 21);
             this.cboTipo.TabIndex = 57;
@@ -137,7 +108,7 @@
             // 
             this.lblTipo.AutoSize = true;
             this.lblTipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipo.Location = new System.Drawing.Point(272, 148);
+            this.lblTipo.Location = new System.Drawing.Point(272, 143);
             this.lblTipo.Name = "lblTipo";
             this.lblTipo.Size = new System.Drawing.Size(47, 20);
             this.lblTipo.TabIndex = 56;
@@ -243,14 +214,44 @@
             this.lblDni.TabIndex = 45;
             this.lblDni.Text = "DNI :";
             // 
+            // lblCodigo
+            // 
+            this.lblCodigo.AutoSize = true;
+            this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCodigo.Location = new System.Drawing.Point(112, 49);
+            this.lblCodigo.Name = "lblCodigo";
+            this.lblCodigo.Size = new System.Drawing.Size(93, 20);
+            this.lblCodigo.TabIndex = 63;
+            this.lblCodigo.Text = "U00000001";
+            // 
+            // lblNumero
+            // 
+            this.lblNumero.AutoSize = true;
+            this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero.Location = new System.Drawing.Point(14, 49);
+            this.lblNumero.Name = "lblNumero";
+            this.lblNumero.Size = new System.Drawing.Size(33, 20);
+            this.lblNumero.TabIndex = 62;
+            this.lblNumero.Text = "N° :";
+            // 
+            // btnGrabar
+            // 
+            this.btnGrabar.Location = new System.Drawing.Point(116, 208);
+            this.btnGrabar.Name = "btnGrabar";
+            this.btnGrabar.Size = new System.Drawing.Size(139, 26);
+            this.btnGrabar.TabIndex = 64;
+            this.btnGrabar.Text = "Grabar";
+            this.btnGrabar.UseVisualStyleBackColor = true;
+            // 
             // RegistrarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(534, 246);
-            this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.lblNumero);
+            this.Controls.Add(this.btnGrabar);
             this.Controls.Add(this.lblCodigo);
+            this.Controls.Add(this.lblNumero);
+            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.cboNacionalidad);
             this.Controls.Add(this.cboTipo);
             this.Controls.Add(this.lblTipo);
@@ -268,7 +269,6 @@
             this.Controls.Add(this.btnExtranjero);
             this.Controls.Add(this.btnPeruano);
             this.Controls.Add(this.lblTitulo);
-            this.Controls.Add(this.btnRegistrar);
             this.Name = "RegistrarUsuario";
             this.Text = "Registrar Usuario";
             this.ResumeLayout(false);
@@ -280,10 +280,7 @@
         private System.Windows.Forms.Button btnExtranjero;
         private System.Windows.Forms.Button btnPeruano;
         private System.Windows.Forms.Label lblTitulo;
-        private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.Label lblNumero;
-        private System.Windows.Forms.Label lblCodigo;
         private System.Windows.Forms.ComboBox cboNacionalidad;
         private System.Windows.Forms.ComboBox cboTipo;
         private System.Windows.Forms.Label lblTipo;
@@ -298,5 +295,8 @@
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.TextBox txtDNI;
         private System.Windows.Forms.Label lblDni;
+        private System.Windows.Forms.Label lblCodigo;
+        private System.Windows.Forms.Label lblNumero;
+        private System.Windows.Forms.Button btnGrabar;
     }
 }
