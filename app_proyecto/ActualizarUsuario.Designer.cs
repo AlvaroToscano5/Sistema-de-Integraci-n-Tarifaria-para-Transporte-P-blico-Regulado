@@ -206,14 +206,14 @@
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(110, 44);
+            this.txtCodigo.Location = new System.Drawing.Point(110, 56);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(119, 20);
             this.txtCodigo.TabIndex = 118;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(237, 42);
+            this.btnBuscar.Location = new System.Drawing.Point(237, 54);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(27, 26);
             this.btnBuscar.TabIndex = 117;
@@ -223,7 +223,7 @@
             // 
             this.lblNumero.AutoSize = true;
             this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero.Location = new System.Drawing.Point(8, 44);
+            this.lblNumero.Location = new System.Drawing.Point(8, 56);
             this.lblNumero.Name = "lblNumero";
             this.lblNumero.Size = new System.Drawing.Size(33, 20);
             this.lblNumero.TabIndex = 116;
