@@ -62,7 +62,7 @@
             // cboNacionalidad
             // 
             this.cboNacionalidad.FormattingEnabled = true;
-            this.cboNacionalidad.Location = new System.Drawing.Point(380, 112);
+            this.cboNacionalidad.Location = new System.Drawing.Point(380, 110);
             this.cboNacionalidad.Name = "cboNacionalidad";
             this.cboNacionalidad.Size = new System.Drawing.Size(134, 21);
             this.cboNacionalidad.TabIndex = 41;
@@ -70,7 +70,7 @@
             // cboTipo
             // 
             this.cboTipo.FormattingEnabled = true;
-            this.cboTipo.Location = new System.Drawing.Point(380, 142);
+            this.cboTipo.Location = new System.Drawing.Point(380, 137);
             this.cboTipo.Name = "cboTipo";
             this.cboTipo.Size = new System.Drawing.Size(134, 21);
             this.cboTipo.TabIndex = 40;
@@ -79,7 +79,7 @@
             // 
             this.lblTipo.AutoSize = true;
             this.lblTipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipo.Location = new System.Drawing.Point(266, 143);
+            this.lblTipo.Location = new System.Drawing.Point(266, 138);
             this.lblTipo.Name = "lblTipo";
             this.lblTipo.Size = new System.Drawing.Size(47, 20);
             this.lblTipo.TabIndex = 39;
@@ -89,7 +89,7 @@
             // 
             this.lblNacionalidad.AutoSize = true;
             this.lblNacionalidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNacionalidad.Location = new System.Drawing.Point(266, 112);
+            this.lblNacionalidad.Location = new System.Drawing.Point(266, 110);
             this.lblNacionalidad.Name = "lblNacionalidad";
             this.lblNacionalidad.Size = new System.Drawing.Size(108, 20);
             this.lblNacionalidad.TabIndex = 36;
