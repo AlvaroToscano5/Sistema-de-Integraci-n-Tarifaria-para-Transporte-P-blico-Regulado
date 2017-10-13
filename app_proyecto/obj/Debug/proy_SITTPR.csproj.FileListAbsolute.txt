@@ -1,3 +1,26 @@
 C:\Users\nahomy\Desktop\prueba\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\bin\Debug\app_proyecto.exe.config
 C:\Users\nahomy\Desktop\prueba\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.exe
 C:\Users\nahomy\Desktop\prueba\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.pdb
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\bin\Debug\app_proyecto.exe.config
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.exe
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.pdb
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\bin\Debug\app_proyecto.exe
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\bin\Debug\app_proyecto.pdb
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\proy_SITTPR.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.ActualizarEmpleado.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.ActualizarMobiliarioEquipo.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.ActualizarUsuario.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.GenerarHojaRuta.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.Menu.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.RecargarMáquina.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.RecargarSaldo.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.RegistrarEmpleado.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.RegistrarMobiliarioEquipo.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.RegistrarUsuario.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.SolicitudMantenimiento.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.TipoUsuario.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.ReconocerUsuario.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.GenerarReclamo.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.Login.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\app_proyecto.Properties.Resources.resources
+C:\Users\USER\Desktop\Proyecto Integrador\Sistema-de-Integraci-n-Tarifaria-para-Transporte-P-blico-Regulado\app_proyecto\obj\Debug\proy_SITTPR.csproj.GenerateResource.Cache
