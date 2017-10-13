@@ -311,7 +311,7 @@
             this.Controls.Add(this.lblDni);
             this.Controls.Add(this.lblTitulo);
             this.Name = "RegistrarEmpleado";
-            this.Text = "RegistrarEmpleado";
+            this.Text = "Registrar Empleado";
             this.ResumeLayout(false);
             this.PerformLayout();
 

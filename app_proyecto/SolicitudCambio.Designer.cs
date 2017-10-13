@@ -181,7 +181,7 @@
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblTitulo);
             this.Name = "SolicitudCambio";
-            this.Text = "SolicitudCambio";
+            this.Text = "Solicitud de Cambio";
             this.Load += new System.EventHandler(this.SolicitudCambio_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCambio)).EndInit();
             this.ResumeLayout(false);

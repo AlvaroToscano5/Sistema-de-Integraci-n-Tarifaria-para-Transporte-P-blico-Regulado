@@ -236,7 +236,7 @@
             this.Controls.Add(this.lblDni);
             this.Controls.Add(this.lblTitulo);
             this.Name = "RecargarMáquina";
-            this.Text = "Máquina Autoservicio";
+            this.Text = "Máquina";
             this.ResumeLayout(false);
             this.PerformLayout();
 

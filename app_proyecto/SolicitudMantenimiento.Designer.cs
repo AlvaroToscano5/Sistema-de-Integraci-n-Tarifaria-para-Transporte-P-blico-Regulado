@@ -181,7 +181,7 @@
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblTitulo);
             this.Name = "SolicitudMantenimiento";
-            this.Text = "SolicitudMantenimiento";
+            this.Text = "Solicitud de Mantenimiento";
             ((System.ComponentModel.ISupportInitialize)(this.dgvMantenimiento)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

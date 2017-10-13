@@ -318,7 +318,7 @@
             this.Controls.Add(this.lblDni);
             this.Controls.Add(this.lblActualizar);
             this.Name = "ActualizarEmpleado";
-            this.Text = "ActualizarEmpleado";
+            this.Text = "Actualizar Empleado";
             this.ResumeLayout(false);
             this.PerformLayout();
 
