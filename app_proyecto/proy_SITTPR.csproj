@@ -217,7 +217,14 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="imágenes\buscar.png" />
+    <Content Include="imágenes\empleado.png" />
+    <Content Include="imágenes\fondo.png" />
     <Content Include="imágenes\Logo.png" />
+    <Content Include="imágenes\mantenimiento.png" />
+    <Content Include="imágenes\reclamo.png" />
+    <Content Include="imágenes\saldo.png" />
+    <Content Include="imágenes\usuario.jpg" />
+    <Content Include="imágenes\usuario2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
