@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ActualizarUsuario));
             this.btnCancelar = new System.Windows.Forms.Button();
             this.cboNacionalidad = new System.Windows.Forms.ComboBox();
             this.cboTipo = new System.Windows.Forms.ComboBox();
@@ -46,8 +47,8 @@
             this.lblDni = new System.Windows.Forms.Label();
             this.btnGrabar = new System.Windows.Forms.Button();
             this.txtCodigo = new System.Windows.Forms.TextBox();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.lblNumero = new System.Windows.Forms.Label();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCancelar
@@ -211,14 +212,6 @@
             this.txtCodigo.Size = new System.Drawing.Size(119, 20);
             this.txtCodigo.TabIndex = 118;
             // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Location = new System.Drawing.Point(237, 54);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(27, 26);
-            this.btnBuscar.TabIndex = 117;
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            // 
             // lblNumero
             // 
             this.lblNumero.AutoSize = true;
@@ -229,13 +222,22 @@
             this.lblNumero.TabIndex = 116;
             this.lblNumero.Text = "N° :";
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
+            this.btnBuscar.Location = new System.Drawing.Point(237, 52);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(27, 27);
+            this.btnBuscar.TabIndex = 139;
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            // 
             // ActualizarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(532, 244);
-            this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.btnBuscar);
+            this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.lblNumero);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.cboNacionalidad);
@@ -281,7 +283,7 @@
         private System.Windows.Forms.Label lblDni;
         private System.Windows.Forms.Button btnGrabar;
         private System.Windows.Forms.TextBox txtCodigo;
-        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Label lblNumero;
+        private System.Windows.Forms.Button btnBuscar;
     }
 }

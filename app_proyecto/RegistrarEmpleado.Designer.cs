@@ -71,9 +71,9 @@
             this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCodigo.Location = new System.Drawing.Point(111, 67);
             this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(93, 20);
+            this.lblCodigo.Size = new System.Drawing.Size(92, 20);
             this.lblCodigo.TabIndex = 79;
-            this.lblCodigo.Text = "U00000001";
+            this.lblCodigo.Text = "E00000001";
             // 
             // lblNumero
             // 

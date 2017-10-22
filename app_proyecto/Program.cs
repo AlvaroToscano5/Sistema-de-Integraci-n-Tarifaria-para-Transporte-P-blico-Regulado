@@ -16,7 +16,7 @@ namespace app_proyecto
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MenuCajera());
+            Application.Run(new Login());
         }
     }
 }

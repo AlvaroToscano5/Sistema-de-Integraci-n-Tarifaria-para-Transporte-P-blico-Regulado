@@ -58,11 +58,29 @@
     <Compile Include="ActualizarMobiliarioEquipo.Designer.cs">
       <DependentUpon>ActualizarMobiliarioEquipo.cs</DependentUpon>
     </Compile>
+    <Compile Include="ActualizarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizarProveedor.Designer.cs">
+      <DependentUpon>ActualizarProveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="ActualizarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ActualizarUsuario.Designer.cs">
       <DependentUpon>ActualizarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarMobiliarioEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarMobiliarioEquipo.Designer.cs">
+      <DependentUpon>BuscarMobiliarioEquipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarUsuario.Designer.cs">
+      <DependentUpon>BuscarUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="GenerarHojaRuta.cs">
       <SubType>Form</SubType>
@@ -99,6 +117,12 @@
     </Compile>
     <Compile Include="RegistrarMobiliarioEquipo.Designer.cs">
       <DependentUpon>RegistrarMobiliarioEquipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarProveedor.Designer.cs">
+      <DependentUpon>RegistrarProveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="RegistrarUsuario.cs">
       <SubType>Form</SubType>
@@ -150,8 +174,17 @@
     <EmbeddedResource Include="ActualizarMobiliarioEquipo.resx">
       <DependentUpon>ActualizarMobiliarioEquipo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ActualizarProveedor.resx">
+      <DependentUpon>ActualizarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ActualizarUsuario.resx">
       <DependentUpon>ActualizarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarMobiliarioEquipo.resx">
+      <DependentUpon>BuscarMobiliarioEquipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarUsuario.resx">
+      <DependentUpon>BuscarUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GenerarHojaRuta.resx">
       <DependentUpon>GenerarHojaRuta.cs</DependentUpon>
@@ -170,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrarMobiliarioEquipo.resx">
       <DependentUpon>RegistrarMobiliarioEquipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarProveedor.resx">
+      <DependentUpon>RegistrarProveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrarUsuario.resx">
       <DependentUpon>RegistrarUsuario.cs</DependentUpon>

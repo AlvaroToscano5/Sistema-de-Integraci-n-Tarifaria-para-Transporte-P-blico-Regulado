@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace app_proyecto
 {
-    public partial class Login : Form
+    public partial class BuscarUsuario : Form
     {
-        public Login()
+        public BuscarUsuario()
         {
             InitializeComponent();
-        }
-
-        private void btnIngresar_Click(object sender, EventArgs e) {
-
-            MenuCajera cajera = new MenuCajera();
-            cajera.Show();
-            this.Hide();
-            
         }
     }
 }
