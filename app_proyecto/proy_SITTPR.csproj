@@ -70,11 +70,11 @@
     <Compile Include="GenerarHojaRuta.Designer.cs">
       <DependentUpon>GenerarHojaRuta.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu.cs">
+    <Compile Include="MenuCajera.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <Compile Include="MenuCajera.Designer.cs">
+      <DependentUpon>MenuCajera.cs</DependentUpon>
     </Compile>
     <Compile Include="RecargarMáquina.cs">
       <SubType>Form</SubType>
@@ -156,8 +156,8 @@
     <EmbeddedResource Include="GenerarHojaRuta.resx">
       <DependentUpon>GenerarHojaRuta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <EmbeddedResource Include="MenuCajera.resx">
+      <DependentUpon>MenuCajera.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RecargarMáquina.resx">
       <DependentUpon>RecargarMáquina.cs</DependentUpon>
@@ -217,14 +217,12 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="imágenes\buscar.png" />
-    <Content Include="imágenes\empleado.png" />
     <Content Include="imágenes\fondo.png" />
     <Content Include="imágenes\Logo.png" />
     <Content Include="imágenes\mantenimiento.png" />
-    <Content Include="imágenes\reclamo.png" />
+    <Content Include="imágenes\reclamos.png" />
     <Content Include="imágenes\saldo.png" />
-    <Content Include="imágenes\usuario.jpg" />
-    <Content Include="imágenes\usuario2.jpg" />
+    <Content Include="imágenes\usuario.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

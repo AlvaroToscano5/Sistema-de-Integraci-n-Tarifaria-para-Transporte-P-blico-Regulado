@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace app_proyecto
 {
-    public partial class Menu : Form
+    public partial class MenuCajera : Form
     {
-        public Menu()
+        public MenuCajera()
         {
             InitializeComponent();
         }

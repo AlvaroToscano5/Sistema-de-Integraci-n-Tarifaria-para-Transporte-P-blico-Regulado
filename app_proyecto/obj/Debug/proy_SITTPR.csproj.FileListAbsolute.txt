@@ -32,7 +32,6 @@ C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.Ac
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.ActualizarMobiliarioEquipo.resources
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.ActualizarUsuario.resources
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.GenerarHojaRuta.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.Menu.resources
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.RecargarMáquina.resources
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.RecargarSaldo.resources
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.RegistrarEmpleado.resources
@@ -48,3 +47,4 @@ C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.Pr
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\proy_SITTPR.csproj.GenerateResource.Cache
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.exe
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.pdb
+C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MenuCajera.resources
