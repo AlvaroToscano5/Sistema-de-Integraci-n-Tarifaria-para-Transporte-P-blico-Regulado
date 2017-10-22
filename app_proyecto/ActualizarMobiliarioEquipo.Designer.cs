@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ActualizarMobiliarioEquipo));
             this.lblGrabar = new System.Windows.Forms.Label();
             this.txtPlaca = new System.Windows.Forms.TextBox();
             this.lblPlaca = new System.Windows.Forms.Label();
@@ -53,9 +54,9 @@
             this.lblDescripcion = new System.Windows.Forms.Label();
             this.lblNumero = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.txtCodigo = new System.Windows.Forms.TextBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblGrabar
@@ -194,7 +195,7 @@
             // 
             this.lblTipo.AutoSize = true;
             this.lblTipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipo.Location = new System.Drawing.Point(292, 161);
+            this.lblTipo.Location = new System.Drawing.Point(292, 164);
             this.lblTipo.Name = "lblTipo";
             this.lblTipo.Size = new System.Drawing.Size(47, 20);
             this.lblTipo.TabIndex = 95;
@@ -280,14 +281,6 @@
             this.lblTitulo.TabIndex = 87;
             this.lblTitulo.Text = "ACTUALIZAR MOBILIARIO/EQUIPO";
             // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Location = new System.Drawing.Point(177, 59);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(27, 26);
-            this.btnBuscar.TabIndex = 113;
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            // 
             // btnCancelar
             // 
             this.btnCancelar.Location = new System.Drawing.Point(483, 247);
@@ -304,14 +297,23 @@
             this.txtCodigo.Size = new System.Drawing.Size(119, 20);
             this.txtCodigo.TabIndex = 115;
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
+            this.btnBuscar.Location = new System.Drawing.Point(175, 58);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(27, 27);
+            this.btnBuscar.TabIndex = 139;
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            // 
             // ActualizarMobiliarioEquipo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(605, 285);
+            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.lblGrabar);
             this.Controls.Add(this.txtPlaca);
             this.Controls.Add(this.lblPlaca);
@@ -371,8 +373,8 @@
         private System.Windows.Forms.Label lblDescripcion;
         private System.Windows.Forms.Label lblNumero;
         private System.Windows.Forms.Label lblTitulo;
-        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.TextBox txtCodigo;
+        private System.Windows.Forms.Button btnBuscar;
     }
 }

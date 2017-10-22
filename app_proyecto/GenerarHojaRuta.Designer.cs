@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GenerarHojaRuta));
             this.txtPlaca = new System.Windows.Forms.TextBox();
             this.lblTransporte = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
@@ -49,10 +50,10 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.cboTurno = new System.Windows.Forms.ComboBox();
             this.lblPlaca = new System.Windows.Forms.Label();
-            this.btnBuscarTrans = new System.Windows.Forms.Button();
             this.lblCodigo = new System.Windows.Forms.Label();
             this.tctCodTrans = new System.Windows.Forms.TextBox();
-            this.btnBuscarChofer = new System.Windows.Forms.Button();
+            this.btnChofer = new System.Windows.Forms.Button();
+            this.btnTransporte = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -242,14 +243,6 @@
             this.lblPlaca.TabIndex = 53;
             this.lblPlaca.Text = "Placa : ";
             // 
-            // btnBuscarTrans
-            // 
-            this.btnBuscarTrans.Location = new System.Drawing.Point(269, 177);
-            this.btnBuscarTrans.Name = "btnBuscarTrans";
-            this.btnBuscarTrans.Size = new System.Drawing.Size(27, 26);
-            this.btnBuscarTrans.TabIndex = 118;
-            this.btnBuscarTrans.UseVisualStyleBackColor = true;
-            // 
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
@@ -267,23 +260,33 @@
             this.tctCodTrans.Size = new System.Drawing.Size(94, 20);
             this.tctCodTrans.TabIndex = 121;
             // 
-            // btnBuscarChofer
+            // btnChofer
             // 
-            this.btnBuscarChofer.Location = new System.Drawing.Point(250, 86);
-            this.btnBuscarChofer.Name = "btnBuscarChofer";
-            this.btnBuscarChofer.Size = new System.Drawing.Size(27, 26);
-            this.btnBuscarChofer.TabIndex = 122;
-            this.btnBuscarChofer.UseVisualStyleBackColor = true;
+            this.btnChofer.Image = ((System.Drawing.Image)(resources.GetObject("btnChofer.Image")));
+            this.btnChofer.Location = new System.Drawing.Point(250, 86);
+            this.btnChofer.Name = "btnChofer";
+            this.btnChofer.Size = new System.Drawing.Size(27, 27);
+            this.btnChofer.TabIndex = 139;
+            this.btnChofer.UseVisualStyleBackColor = true;
+            // 
+            // btnTransporte
+            // 
+            this.btnTransporte.Image = ((System.Drawing.Image)(resources.GetObject("btnTransporte.Image")));
+            this.btnTransporte.Location = new System.Drawing.Point(269, 177);
+            this.btnTransporte.Name = "btnTransporte";
+            this.btnTransporte.Size = new System.Drawing.Size(27, 27);
+            this.btnTransporte.TabIndex = 140;
+            this.btnTransporte.UseVisualStyleBackColor = true;
             // 
             // GenerarHojaRuta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(554, 460);
-            this.Controls.Add(this.btnBuscarChofer);
+            this.Controls.Add(this.btnTransporte);
+            this.Controls.Add(this.btnChofer);
             this.Controls.Add(this.tctCodTrans);
             this.Controls.Add(this.lblCodigo);
-            this.Controls.Add(this.btnBuscarTrans);
             this.Controls.Add(this.lblPlaca);
             this.Controls.Add(this.cboTurno);
             this.Controls.Add(this.txtPlaca);
@@ -336,9 +339,9 @@
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.ComboBox cboTurno;
         private System.Windows.Forms.Label lblPlaca;
-        private System.Windows.Forms.Button btnBuscarTrans;
         private System.Windows.Forms.Label lblCodigo;
         private System.Windows.Forms.TextBox tctCodTrans;
-        private System.Windows.Forms.Button btnBuscarChofer;
+        private System.Windows.Forms.Button btnChofer;
+        private System.Windows.Forms.Button btnTransporte;
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GenerarReclamo));
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblDni = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
@@ -49,10 +50,10 @@
             this.btnGrabar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnImprimir = new System.Windows.Forms.Button();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.cboTipo = new System.Windows.Forms.ComboBox();
             this.lblTipo = new System.Windows.Forms.Label();
             this.cboEstado = new System.Windows.Forms.ComboBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -244,14 +245,6 @@
             this.btnImprimir.Text = "Imprimir";
             this.btnImprimir.UseVisualStyleBackColor = true;
             // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Location = new System.Drawing.Point(173, 66);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(27, 26);
-            this.btnBuscar.TabIndex = 118;
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            // 
             // cboTipo
             // 
             this.cboTipo.FormattingEnabled = true;
@@ -278,15 +271,24 @@
             this.cboEstado.Size = new System.Drawing.Size(148, 21);
             this.cboEstado.TabIndex = 121;
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
+            this.btnBuscar.Location = new System.Drawing.Point(169, 64);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(27, 27);
+            this.btnBuscar.TabIndex = 139;
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            // 
             // GenerarReclamo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(562, 413);
+            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.lblTipo);
             this.Controls.Add(this.cboTipo);
-            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnImprimir);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnGrabar);
@@ -338,9 +340,9 @@
         private System.Windows.Forms.Button btnGrabar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnImprimir;
-        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.ComboBox cboTipo;
         private System.Windows.Forms.Label lblTipo;
         private System.Windows.Forms.ComboBox cboEstado;
+        private System.Windows.Forms.Button btnBuscar;
     }
 }

@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TipoUsuario));
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblDni = new System.Windows.Forms.Label();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.btnGrabar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.txtDni = new System.Windows.Forms.TextBox();
@@ -39,6 +39,7 @@
             this.dgvUsuario = new System.Windows.Forms.DataGridView();
             this.lblNombre = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuario)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,15 +63,6 @@
             this.lblDni.TabIndex = 1;
             this.lblDni.Text = "DNI : ";
             // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Location = new System.Drawing.Point(208, 65);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(45, 21);
-            this.btnBuscar.TabIndex = 5;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            // 
             // btnGrabar
             // 
             this.btnGrabar.Location = new System.Drawing.Point(29, 305);
@@ -93,7 +85,7 @@
             // 
             this.txtDni.Location = new System.Drawing.Point(91, 66);
             this.txtDni.Name = "txtDni";
-            this.txtDni.Size = new System.Drawing.Size(111, 20);
+            this.txtDni.Size = new System.Drawing.Size(129, 20);
             this.txtDni.TabIndex = 13;
             // 
             // lblTipo
@@ -139,11 +131,21 @@
             this.txtNombre.Size = new System.Drawing.Size(162, 20);
             this.txtNombre.TabIndex = 12;
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
+            this.btnBuscar.Location = new System.Drawing.Point(226, 62);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(27, 27);
+            this.btnBuscar.TabIndex = 139;
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            // 
             // TipoUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(272, 352);
+            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.dgvUsuario);
             this.Controls.Add(this.cboTipo);
             this.Controls.Add(this.lblTipo);
@@ -151,7 +153,6 @@
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnGrabar);
-            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblDni);
             this.Controls.Add(this.lblTitulo);
@@ -168,7 +169,6 @@
 
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblDni;
-        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button btnGrabar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.TextBox txtDni;
@@ -177,5 +177,6 @@
         private System.Windows.Forms.DataGridView dgvUsuario;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.Button btnBuscar;
     }
 }

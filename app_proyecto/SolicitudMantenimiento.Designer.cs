@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SolicitudMantenimiento));
             this.lblTitulo = new System.Windows.Forms.Label();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.lblDescripcion = new System.Windows.Forms.Label();
             this.cboTipo = new System.Windows.Forms.ComboBox();
             this.lblTipo = new System.Windows.Forms.Label();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.cboEstacion = new System.Windows.Forms.ComboBox();
             this.btnGrabar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
@@ -41,6 +41,10 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblEstacion = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.cboEstado = new System.Windows.Forms.ComboBox();
+            this.lblEstado = new System.Windows.Forms.Label();
+            this.btnBuscar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMantenimiento)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,7 +60,7 @@
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(121, 146);
+            this.txtDescripcion.Location = new System.Drawing.Point(121, 173);
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(345, 49);
@@ -66,7 +70,7 @@
             // 
             this.lblDescripcion.AutoSize = true;
             this.lblDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescripcion.Location = new System.Drawing.Point(21, 146);
+            this.lblDescripcion.Location = new System.Drawing.Point(21, 173);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(100, 20);
             this.lblDescripcion.TabIndex = 145;
@@ -90,14 +94,6 @@
             this.lblTipo.Size = new System.Drawing.Size(47, 20);
             this.lblTipo.TabIndex = 143;
             this.lblTipo.Text = "Tipo :";
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Location = new System.Drawing.Point(273, 64);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(27, 26);
-            this.btnBuscar.TabIndex = 142;
-            this.btnBuscar.UseVisualStyleBackColor = true;
             // 
             // cboEstacion
             // 
@@ -129,9 +125,9 @@
             // dgvMantenimiento
             // 
             this.dgvMantenimiento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMantenimiento.Location = new System.Drawing.Point(12, 209);
+            this.dgvMantenimiento.Location = new System.Drawing.Point(12, 228);
             this.dgvMantenimiento.Name = "dgvMantenimiento";
-            this.dgvMantenimiento.Size = new System.Drawing.Size(467, 169);
+            this.dgvMantenimiento.Size = new System.Drawing.Size(467, 175);
             this.dgvMantenimiento.TabIndex = 138;
             // 
             // txtNombre
@@ -162,16 +158,56 @@
             this.lblNombre.TabIndex = 135;
             this.lblNombre.Text = "Nombre :";
             // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Location = new System.Drawing.Point(386, 409);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(93, 28);
+            this.btnCancelar.TabIndex = 147;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            // 
+            // cboEstado
+            // 
+            this.cboEstado.FormattingEnabled = true;
+            this.cboEstado.Location = new System.Drawing.Point(121, 146);
+            this.cboEstado.Name = "cboEstado";
+            this.cboEstado.Size = new System.Drawing.Size(146, 21);
+            this.cboEstado.TabIndex = 149;
+            this.cboEstado.Visible = false;
+            // 
+            // lblEstado
+            // 
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstado.Location = new System.Drawing.Point(21, 144);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(68, 20);
+            this.lblEstado.TabIndex = 148;
+            this.lblEstado.Text = "Estado :";
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
+            this.btnBuscar.Location = new System.Drawing.Point(273, 64);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(27, 27);
+            this.btnBuscar.TabIndex = 150;
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            // 
             // SolicitudMantenimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(490, 389);
+            this.ClientSize = new System.Drawing.Size(490, 442);
+            this.Controls.Add(this.btnBuscar);
+            this.Controls.Add(this.cboEstado);
+            this.Controls.Add(this.lblEstado);
+            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.lblDescripcion);
             this.Controls.Add(this.cboTipo);
             this.Controls.Add(this.lblTipo);
-            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.cboEstacion);
             this.Controls.Add(this.btnGrabar);
             this.Controls.Add(this.btnAgregar);
@@ -195,7 +231,6 @@
         private System.Windows.Forms.Label lblDescripcion;
         private System.Windows.Forms.ComboBox cboTipo;
         private System.Windows.Forms.Label lblTipo;
-        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.ComboBox cboEstacion;
         private System.Windows.Forms.Button btnGrabar;
         private System.Windows.Forms.Button btnAgregar;
@@ -203,5 +238,9 @@
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label lblEstacion;
         private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.ComboBox cboEstado;
+        private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.Button btnBuscar;
     }
 }
