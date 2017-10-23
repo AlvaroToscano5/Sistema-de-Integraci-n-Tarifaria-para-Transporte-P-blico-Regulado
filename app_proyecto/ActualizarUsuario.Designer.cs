@@ -49,6 +49,8 @@
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.lblNumero = new System.Windows.Forms.Label();
             this.btnBuscar = new System.Windows.Forms.Button();
+            this.lblEstado = new System.Windows.Forms.Label();
+            this.cboEstado = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // btnCancelar
@@ -231,11 +233,31 @@
             this.btnBuscar.TabIndex = 139;
             this.btnBuscar.UseVisualStyleBackColor = true;
             // 
+            // lblEstado
+            // 
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstado.Location = new System.Drawing.Point(266, 162);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(68, 20);
+            this.lblEstado.TabIndex = 162;
+            this.lblEstado.Text = "Estado :";
+            // 
+            // cboEstado
+            // 
+            this.cboEstado.FormattingEnabled = true;
+            this.cboEstado.Location = new System.Drawing.Point(380, 163);
+            this.cboEstado.Name = "cboEstado";
+            this.cboEstado.Size = new System.Drawing.Size(134, 21);
+            this.cboEstado.TabIndex = 161;
+            // 
             // ActualizarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(532, 244);
+            this.Controls.Add(this.lblEstado);
+            this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.lblNumero);
@@ -285,5 +307,7 @@
         private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.Label lblNumero;
         private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.ComboBox cboEstado;
     }
 }

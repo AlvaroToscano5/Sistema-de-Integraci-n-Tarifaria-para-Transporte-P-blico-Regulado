@@ -53,6 +53,8 @@
             this.lblTelefono = new System.Windows.Forms.Label();
             this.btnGrabar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.lblEstado = new System.Windows.Forms.Label();
+            this.cboEstado = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -69,7 +71,7 @@
             // 
             this.lblCodigo.AutoSize = true;
             this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodigo.Location = new System.Drawing.Point(111, 67);
+            this.lblCodigo.Location = new System.Drawing.Point(111, 53);
             this.lblCodigo.Name = "lblCodigo";
             this.lblCodigo.Size = new System.Drawing.Size(92, 20);
             this.lblCodigo.TabIndex = 79;
@@ -79,7 +81,7 @@
             // 
             this.lblNumero.AutoSize = true;
             this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero.Location = new System.Drawing.Point(13, 65);
+            this.lblNumero.Location = new System.Drawing.Point(13, 51);
             this.lblNumero.Name = "lblNumero";
             this.lblNumero.Size = new System.Drawing.Size(33, 20);
             this.lblNumero.TabIndex = 78;
@@ -88,7 +90,7 @@
             // cboEstación
             // 
             this.cboEstación.FormattingEnabled = true;
-            this.cboEstación.Location = new System.Drawing.Point(385, 175);
+            this.cboEstación.Location = new System.Drawing.Point(387, 188);
             this.cboEstación.Name = "cboEstación";
             this.cboEstación.Size = new System.Drawing.Size(134, 21);
             this.cboEstación.TabIndex = 77;
@@ -96,7 +98,7 @@
             // cboTipo
             // 
             this.cboTipo.FormattingEnabled = true;
-            this.cboTipo.Location = new System.Drawing.Point(385, 148);
+            this.cboTipo.Location = new System.Drawing.Point(387, 161);
             this.cboTipo.Name = "cboTipo";
             this.cboTipo.Size = new System.Drawing.Size(134, 21);
             this.cboTipo.TabIndex = 76;
@@ -105,7 +107,7 @@
             // 
             this.lblTipo.AutoSize = true;
             this.lblTipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipo.Location = new System.Drawing.Point(271, 146);
+            this.lblTipo.Location = new System.Drawing.Point(273, 159);
             this.lblTipo.Name = "lblTipo";
             this.lblTipo.Size = new System.Drawing.Size(47, 20);
             this.lblTipo.TabIndex = 75;
@@ -115,7 +117,7 @@
             // 
             this.lblDireccion.AutoSize = true;
             this.lblDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDireccion.Location = new System.Drawing.Point(271, 120);
+            this.lblDireccion.Location = new System.Drawing.Point(273, 133);
             this.lblDireccion.Name = "lblDireccion";
             this.lblDireccion.Size = new System.Drawing.Size(83, 20);
             this.lblDireccion.TabIndex = 74;
@@ -123,7 +125,7 @@
             // 
             // txtEdad
             // 
-            this.txtEdad.Location = new System.Drawing.Point(385, 95);
+            this.txtEdad.Location = new System.Drawing.Point(387, 108);
             this.txtEdad.Name = "txtEdad";
             this.txtEdad.Size = new System.Drawing.Size(134, 20);
             this.txtEdad.TabIndex = 73;
@@ -132,7 +134,7 @@
             // 
             this.lblEdad.AutoSize = true;
             this.lblEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEdad.Location = new System.Drawing.Point(271, 93);
+            this.lblEdad.Location = new System.Drawing.Point(273, 106);
             this.lblEdad.Name = "lblEdad";
             this.lblEdad.Size = new System.Drawing.Size(55, 20);
             this.lblEdad.TabIndex = 72;
@@ -145,7 +147,7 @@
             "------",
             "Femenina",
             "Masculino"});
-            this.cboSexo.Location = new System.Drawing.Point(115, 174);
+            this.cboSexo.Location = new System.Drawing.Point(115, 160);
             this.cboSexo.Name = "cboSexo";
             this.cboSexo.Size = new System.Drawing.Size(130, 21);
             this.cboSexo.TabIndex = 71;
@@ -154,7 +156,7 @@
             // 
             this.lblSexo.AutoSize = true;
             this.lblSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSexo.Location = new System.Drawing.Point(13, 175);
+            this.lblSexo.Location = new System.Drawing.Point(13, 161);
             this.lblSexo.Name = "lblSexo";
             this.lblSexo.Size = new System.Drawing.Size(53, 20);
             this.lblSexo.TabIndex = 70;
@@ -162,7 +164,7 @@
             // 
             // txtApellidos
             // 
-            this.txtApellidos.Location = new System.Drawing.Point(115, 148);
+            this.txtApellidos.Location = new System.Drawing.Point(115, 134);
             this.txtApellidos.Name = "txtApellidos";
             this.txtApellidos.Size = new System.Drawing.Size(130, 20);
             this.txtApellidos.TabIndex = 69;
@@ -171,7 +173,7 @@
             // 
             this.lblApellidos.AutoSize = true;
             this.lblApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblApellidos.Location = new System.Drawing.Point(13, 148);
+            this.lblApellidos.Location = new System.Drawing.Point(13, 134);
             this.lblApellidos.Name = "lblApellidos";
             this.lblApellidos.Size = new System.Drawing.Size(81, 20);
             this.lblApellidos.TabIndex = 68;
@@ -179,7 +181,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(115, 122);
+            this.txtNombre.Location = new System.Drawing.Point(115, 108);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(130, 20);
             this.txtNombre.TabIndex = 67;
@@ -188,7 +190,7 @@
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(12, 120);
+            this.lblNombre.Location = new System.Drawing.Point(12, 106);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(73, 20);
             this.lblNombre.TabIndex = 66;
@@ -196,7 +198,7 @@
             // 
             // txtDNI
             // 
-            this.txtDNI.Location = new System.Drawing.Point(115, 96);
+            this.txtDNI.Location = new System.Drawing.Point(115, 82);
             this.txtDNI.Name = "txtDNI";
             this.txtDNI.Size = new System.Drawing.Size(130, 20);
             this.txtDNI.TabIndex = 65;
@@ -205,7 +207,7 @@
             // 
             this.lblDni.AutoSize = true;
             this.lblDni.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDni.Location = new System.Drawing.Point(13, 96);
+            this.lblDni.Location = new System.Drawing.Point(13, 82);
             this.lblDni.Name = "lblDni";
             this.lblDni.Size = new System.Drawing.Size(45, 20);
             this.lblDni.TabIndex = 64;
@@ -213,7 +215,7 @@
             // 
             // txtEstacion
             // 
-            this.txtEstacion.Location = new System.Drawing.Point(385, 122);
+            this.txtEstacion.Location = new System.Drawing.Point(387, 135);
             this.txtEstacion.Name = "txtEstacion";
             this.txtEstacion.Size = new System.Drawing.Size(134, 20);
             this.txtEstacion.TabIndex = 81;
@@ -222,7 +224,7 @@
             // 
             this.lblEstacion.AutoSize = true;
             this.lblEstacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstacion.Location = new System.Drawing.Point(271, 173);
+            this.lblEstacion.Location = new System.Drawing.Point(273, 187);
             this.lblEstacion.Name = "lblEstacion";
             this.lblEstacion.Size = new System.Drawing.Size(79, 20);
             this.lblEstacion.TabIndex = 80;
@@ -230,7 +232,7 @@
             // 
             // txtCorreo
             // 
-            this.txtCorreo.Location = new System.Drawing.Point(385, 69);
+            this.txtCorreo.Location = new System.Drawing.Point(387, 82);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(134, 20);
             this.txtCorreo.TabIndex = 83;
@@ -239,7 +241,7 @@
             // 
             this.lblCorreo.AutoSize = true;
             this.lblCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCorreo.Location = new System.Drawing.Point(271, 69);
+            this.lblCorreo.Location = new System.Drawing.Point(273, 82);
             this.lblCorreo.Name = "lblCorreo";
             this.lblCorreo.Size = new System.Drawing.Size(65, 20);
             this.lblCorreo.TabIndex = 82;
@@ -247,16 +249,16 @@
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(231, 212);
+            this.txtTelefono.Location = new System.Drawing.Point(115, 187);
             this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(134, 20);
+            this.txtTelefono.Size = new System.Drawing.Size(130, 20);
             this.txtTelefono.TabIndex = 85;
             // 
             // lblTelefono
             // 
             this.lblTelefono.AutoSize = true;
             this.lblTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefono.Location = new System.Drawing.Point(125, 210);
+            this.lblTelefono.Location = new System.Drawing.Point(13, 185);
             this.lblTelefono.Name = "lblTelefono";
             this.lblTelefono.Size = new System.Drawing.Size(79, 20);
             this.lblTelefono.TabIndex = 84;
@@ -264,7 +266,7 @@
             // 
             // btnGrabar
             // 
-            this.btnGrabar.Location = new System.Drawing.Point(121, 253);
+            this.btnGrabar.Location = new System.Drawing.Point(121, 261);
             this.btnGrabar.Name = "btnGrabar";
             this.btnGrabar.Size = new System.Drawing.Size(139, 26);
             this.btnGrabar.TabIndex = 86;
@@ -273,18 +275,38 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(266, 253);
+            this.btnCancelar.Location = new System.Drawing.Point(266, 261);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(139, 26);
             this.btnCancelar.TabIndex = 87;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
+            // lblEstado
+            // 
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstado.Location = new System.Drawing.Point(152, 214);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(68, 20);
+            this.lblEstado.TabIndex = 89;
+            this.lblEstado.Text = "Estado :";
+            // 
+            // cboEstado
+            // 
+            this.cboEstado.FormattingEnabled = true;
+            this.cboEstado.Location = new System.Drawing.Point(266, 215);
+            this.cboEstado.Name = "cboEstado";
+            this.cboEstado.Size = new System.Drawing.Size(134, 21);
+            this.cboEstado.TabIndex = 88;
+            // 
             // RegistrarEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(533, 291);
+            this.ClientSize = new System.Drawing.Size(533, 299);
+            this.Controls.Add(this.lblEstado);
+            this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnGrabar);
             this.Controls.Add(this.txtTelefono);
@@ -344,5 +366,7 @@
         private System.Windows.Forms.Label lblTelefono;
         private System.Windows.Forms.Button btnGrabar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.ComboBox cboEstado;
     }
 }

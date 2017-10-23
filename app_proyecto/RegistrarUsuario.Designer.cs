@@ -49,6 +49,8 @@
             this.lblCodigo = new System.Windows.Forms.Label();
             this.lblNumero = new System.Windows.Forms.Label();
             this.btnGrabar = new System.Windows.Forms.Button();
+            this.lblEstado = new System.Windows.Forms.Label();
+            this.cboEstado = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // btnExtranjero
@@ -243,11 +245,31 @@
             this.btnGrabar.Text = "Grabar";
             this.btnGrabar.UseVisualStyleBackColor = true;
             // 
+            // lblEstado
+            // 
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstado.Location = new System.Drawing.Point(272, 167);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(68, 20);
+            this.lblEstado.TabIndex = 162;
+            this.lblEstado.Text = "Estado :";
+            // 
+            // cboEstado
+            // 
+            this.cboEstado.FormattingEnabled = true;
+            this.cboEstado.Location = new System.Drawing.Point(386, 168);
+            this.cboEstado.Name = "cboEstado";
+            this.cboEstado.Size = new System.Drawing.Size(134, 21);
+            this.cboEstado.TabIndex = 161;
+            // 
             // RegistrarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(534, 246);
+            this.Controls.Add(this.lblEstado);
+            this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.btnGrabar);
             this.Controls.Add(this.lblCodigo);
             this.Controls.Add(this.lblNumero);
@@ -298,5 +320,7 @@
         private System.Windows.Forms.Label lblCodigo;
         private System.Windows.Forms.Label lblNumero;
         private System.Windows.Forms.Button btnGrabar;
+        private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.ComboBox cboEstado;
     }
 }
