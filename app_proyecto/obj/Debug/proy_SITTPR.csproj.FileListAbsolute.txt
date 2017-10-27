@@ -48,3 +48,31 @@ C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\proy_SITTPR.csp
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.exe
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.pdb
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MenuCajera.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\bin\Debug\app_proyecto.exe.config
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.exe
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.pdb
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\bin\Debug\app_proyecto.exe
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\bin\Debug\app_proyecto.pdb
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\proy_SITTPR.csprojResolveAssemblyReference.cache
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.ActualizarEmpleado.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.ActualizarMobiliarioEquipo.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.ActualizarProveedor.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.ActualizarUsuario.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.BuscarMobiliarioEquipo.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.BuscarUsuario.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.GenerarHojaRuta.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.MenuCajera.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.RecargarMáquina.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.RecargarSaldo.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.RegistrarEmpleado.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.RegistrarMobiliarioEquipo.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.RegistrarProveedor.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.RegistrarUsuario.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.SolicitudCambio.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.SolicitudMantenimiento.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.TipoUsuario.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.ReconocerUsuario.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.GenerarReclamo.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.Login.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.Properties.Resources.resources
+F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\proy_SITTPR.csproj.GenerateResource.Cache
