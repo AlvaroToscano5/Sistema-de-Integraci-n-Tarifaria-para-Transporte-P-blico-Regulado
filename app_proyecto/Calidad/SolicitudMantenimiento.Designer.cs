@@ -83,7 +83,6 @@
             this.cboTipo.Name = "cboTipo";
             this.cboTipo.Size = new System.Drawing.Size(146, 21);
             this.cboTipo.TabIndex = 144;
-            this.cboTipo.Visible = false;
             // 
             // lblTipo
             // 
@@ -102,7 +101,6 @@
             this.cboEstacion.Name = "cboEstacion";
             this.cboEstacion.Size = new System.Drawing.Size(146, 21);
             this.cboEstacion.TabIndex = 141;
-            this.cboEstacion.Visible = false;
             // 
             // btnGrabar
             // 
@@ -136,7 +134,6 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(146, 20);
             this.txtNombre.TabIndex = 137;
-            this.txtNombre.Visible = false;
             // 
             // lblEstacion
             // 
@@ -174,7 +171,6 @@
             this.cboEstado.Name = "cboEstado";
             this.cboEstado.Size = new System.Drawing.Size(146, 21);
             this.cboEstado.TabIndex = 149;
-            this.cboEstado.Visible = false;
             // 
             // lblEstado
             // 

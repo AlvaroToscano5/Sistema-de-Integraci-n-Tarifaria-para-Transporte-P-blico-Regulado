@@ -76,3 +76,9 @@ F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.GenerarR
 F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.Login.resources
 F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.Properties.Resources.resources
 F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\proy_SITTPR.csproj.GenerateResource.Cache
+C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.ActualizarProveedor.resources
+C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.BuscarMobiliarioEquipo.resources
+C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.BuscarUsuario.resources
+C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.RegistrarProveedor.resources
+C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MenuRecursosHumanos.resources
+C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MenuServicioTecnico.resources

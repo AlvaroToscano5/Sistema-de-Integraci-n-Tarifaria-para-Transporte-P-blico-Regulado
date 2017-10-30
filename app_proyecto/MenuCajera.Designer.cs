@@ -35,6 +35,7 @@
             this.lblActualizar = new System.Windows.Forms.Label();
             this.lblSaldos = new System.Windows.Forms.Label();
             this.lblReclamos = new System.Windows.Forms.Label();
+            this.btnCerrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSaldos
@@ -109,12 +110,23 @@
             this.lblReclamos.TabIndex = 6;
             this.lblReclamos.Text = "Generar Reclamos";
             // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Location = new System.Drawing.Point(526, 12);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(103, 24);
+            this.btnCerrar.TabIndex = 14;
+            this.btnCerrar.Text = "CERRAR SESIÓN";
+            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            // 
             // MenuCajera
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(641, 322);
+            this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.lblReclamos);
             this.Controls.Add(this.lblSaldos);
             this.Controls.Add(this.lblActualizar);
@@ -136,5 +148,6 @@
         private System.Windows.Forms.Label lblActualizar;
         private System.Windows.Forms.Label lblSaldos;
         private System.Windows.Forms.Label lblReclamos;
+        private System.Windows.Forms.Button btnCerrar;
     }
 }

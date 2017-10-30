@@ -70,6 +70,24 @@
     <Compile Include="Mantenimientos\ActualizarUsuario.Designer.cs">
       <DependentUpon>ActualizarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuDepCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuDepCompras.Designer.cs">
+      <DependentUpon>MenuDepCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuRecursosHumanos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuRecursosHumanos.Designer.cs">
+      <DependentUpon>MenuRecursosHumanos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuServicioTecnico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuServicioTecnico.Designer.cs">
+      <DependentUpon>MenuServicioTecnico.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reutilizables\BuscarMobiliarioEquipo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +198,15 @@
     <EmbeddedResource Include="Mantenimientos\ActualizarUsuario.resx">
       <DependentUpon>ActualizarUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MenuDepCompras.resx">
+      <DependentUpon>MenuDepCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuRecursosHumanos.resx">
+      <DependentUpon>MenuRecursosHumanos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuServicioTecnico.resx">
+      <DependentUpon>MenuServicioTecnico.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reutilizables\BuscarMobiliarioEquipo.resx">
       <DependentUpon>BuscarMobiliarioEquipo.cs</DependentUpon>
     </EmbeddedResource>
@@ -255,12 +282,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="imágenes\buscar.png" />
+    <Content Include="imágenes\cambios.png" />
+    <Content Include="imágenes\cerrar.png" />
+    <Content Include="imágenes\equipo.png" />
     <Content Include="imágenes\fondo.png" />
     <Content Include="imágenes\Logo.png" />
     <Content Include="imágenes\mantenimiento.png" />
+    <Content Include="imágenes\mantenimientos.png" />
+    <Content Include="imágenes\mobiliario.png" />
+    <Content Include="imágenes\proveedores.png" />
+    <Content Include="imágenes\proveedoresA.png" />
     <Content Include="imágenes\reclamos.png" />
+    <Content Include="imágenes\ruta.png" />
     <Content Include="imágenes\saldo.png" />
     <Content Include="imágenes\usuario.png" />
+    <Content Include="imágenes\usuarioA.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
