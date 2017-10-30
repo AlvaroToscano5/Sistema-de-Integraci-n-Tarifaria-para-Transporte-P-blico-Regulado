@@ -16,5 +16,17 @@ namespace app_proyecto
         {
             InitializeComponent();
         }
+
+        private void btnActualizar_Click(object sender, EventArgs e) {
+
+        }
+
+        private void btnSaldos_Click(object sender, EventArgs e) {
+
+        }
+
+        private void btnReclamos_Click(object sender, EventArgs e) {
+
+        }
     }
 }

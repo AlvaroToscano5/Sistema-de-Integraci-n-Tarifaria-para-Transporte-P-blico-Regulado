@@ -47,6 +47,7 @@
             this.btnSaldos.Size = new System.Drawing.Size(150, 150);
             this.btnSaldos.TabIndex = 1;
             this.btnSaldos.UseVisualStyleBackColor = false;
+            this.btnSaldos.Click += new System.EventHandler(this.btnSaldos_Click);
             // 
             // btnReclamos
             // 
@@ -58,6 +59,7 @@
             this.btnReclamos.Size = new System.Drawing.Size(150, 150);
             this.btnReclamos.TabIndex = 2;
             this.btnReclamos.UseVisualStyleBackColor = false;
+            this.btnReclamos.Click += new System.EventHandler(this.btnReclamos_Click);
             // 
             // btnActualizar
             // 
@@ -69,6 +71,7 @@
             this.btnActualizar.Size = new System.Drawing.Size(150, 150);
             this.btnActualizar.TabIndex = 3;
             this.btnActualizar.UseVisualStyleBackColor = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // lblActualizar
             // 

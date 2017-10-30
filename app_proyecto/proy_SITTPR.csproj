@@ -46,46 +46,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActualizarEmpleado.cs">
+    <Compile Include="Mantenimientos\ActualizarEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ActualizarEmpleado.Designer.cs">
+    <Compile Include="Mantenimientos\ActualizarEmpleado.Designer.cs">
       <DependentUpon>ActualizarEmpleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="ActualizarMobiliarioEquipo.cs">
+    <Compile Include="Mantenimientos\ActualizarMobiliarioEquipo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ActualizarMobiliarioEquipo.Designer.cs">
+    <Compile Include="Mantenimientos\ActualizarMobiliarioEquipo.Designer.cs">
       <DependentUpon>ActualizarMobiliarioEquipo.cs</DependentUpon>
     </Compile>
-    <Compile Include="ActualizarProveedor.cs">
+    <Compile Include="Mantenimientos\ActualizarProveedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ActualizarProveedor.Designer.cs">
+    <Compile Include="Mantenimientos\ActualizarProveedor.Designer.cs">
       <DependentUpon>ActualizarProveedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="ActualizarUsuario.cs">
+    <Compile Include="Mantenimientos\ActualizarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ActualizarUsuario.Designer.cs">
+    <Compile Include="Mantenimientos\ActualizarUsuario.Designer.cs">
       <DependentUpon>ActualizarUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="BuscarMobiliarioEquipo.cs">
+    <Compile Include="Reutilizables\BuscarMobiliarioEquipo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BuscarMobiliarioEquipo.Designer.cs">
+    <Compile Include="Reutilizables\BuscarMobiliarioEquipo.Designer.cs">
       <DependentUpon>BuscarMobiliarioEquipo.cs</DependentUpon>
     </Compile>
-    <Compile Include="BuscarUsuario.cs">
+    <Compile Include="Reutilizables\BuscarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BuscarUsuario.Designer.cs">
+    <Compile Include="Reutilizables\BuscarUsuario.Designer.cs">
       <DependentUpon>BuscarUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="GenerarHojaRuta.cs">
+    <Compile Include="Servicios\GenerarHojaRuta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GenerarHojaRuta.Designer.cs">
+    <Compile Include="Servicios\GenerarHojaRuta.Designer.cs">
       <DependentUpon>GenerarHojaRuta.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuCajera.cs">
@@ -94,70 +94,70 @@
     <Compile Include="MenuCajera.Designer.cs">
       <DependentUpon>MenuCajera.cs</DependentUpon>
     </Compile>
-    <Compile Include="RecargarMáquina.cs">
+    <Compile Include="Servicios\RecargarMáquina.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RecargarMáquina.Designer.cs">
+    <Compile Include="Servicios\RecargarMáquina.Designer.cs">
       <DependentUpon>RecargarMáquina.cs</DependentUpon>
     </Compile>
-    <Compile Include="RecargarSaldo.cs">
+    <Compile Include="Servicios\RecargarSaldo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RecargarSaldo.Designer.cs">
+    <Compile Include="Servicios\RecargarSaldo.Designer.cs">
       <DependentUpon>RecargarSaldo.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegistrarEmpleado.cs">
+    <Compile Include="Mantenimientos\RegistrarEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistrarEmpleado.Designer.cs">
+    <Compile Include="Mantenimientos\RegistrarEmpleado.Designer.cs">
       <DependentUpon>RegistrarEmpleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegistrarMobiliarioEquipo.cs">
+    <Compile Include="Mantenimientos\RegistrarMobiliarioEquipo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistrarMobiliarioEquipo.Designer.cs">
+    <Compile Include="Mantenimientos\RegistrarMobiliarioEquipo.Designer.cs">
       <DependentUpon>RegistrarMobiliarioEquipo.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegistrarProveedor.cs">
+    <Compile Include="Mantenimientos\RegistrarProveedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistrarProveedor.Designer.cs">
+    <Compile Include="Mantenimientos\RegistrarProveedor.Designer.cs">
       <DependentUpon>RegistrarProveedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegistrarUsuario.cs">
+    <Compile Include="Mantenimientos\RegistrarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistrarUsuario.Designer.cs">
+    <Compile Include="Mantenimientos\RegistrarUsuario.Designer.cs">
       <DependentUpon>RegistrarUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="SolicitudCambio.cs">
+    <Compile Include="Calidad\SolicitudCambio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SolicitudCambio.Designer.cs">
+    <Compile Include="Calidad\SolicitudCambio.Designer.cs">
       <DependentUpon>SolicitudCambio.cs</DependentUpon>
     </Compile>
-    <Compile Include="SolicitudMantenimiento.cs">
+    <Compile Include="Calidad\SolicitudMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SolicitudMantenimiento.Designer.cs">
+    <Compile Include="Calidad\SolicitudMantenimiento.Designer.cs">
       <DependentUpon>SolicitudMantenimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="TipoUsuario.cs">
+    <Compile Include="Mantenimientos\TipoUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TipoUsuario.Designer.cs">
+    <Compile Include="Mantenimientos\TipoUsuario.Designer.cs">
       <DependentUpon>TipoUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="ReconocerUsuario.cs">
+    <Compile Include="Servicios\ReconocerUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ReconocerUsuario.Designer.cs">
+    <Compile Include="Servicios\ReconocerUsuario.Designer.cs">
       <DependentUpon>ReconocerUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="GenerarReclamo.cs">
+    <Compile Include="Calidad\GenerarReclamo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GenerarReclamo.Designer.cs">
+    <Compile Include="Calidad\GenerarReclamo.Designer.cs">
       <DependentUpon>GenerarReclamo.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
@@ -168,61 +168,61 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ActualizarEmpleado.resx">
+    <EmbeddedResource Include="Mantenimientos\ActualizarEmpleado.resx">
       <DependentUpon>ActualizarEmpleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ActualizarMobiliarioEquipo.resx">
+    <EmbeddedResource Include="Mantenimientos\ActualizarMobiliarioEquipo.resx">
       <DependentUpon>ActualizarMobiliarioEquipo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ActualizarProveedor.resx">
+    <EmbeddedResource Include="Mantenimientos\ActualizarProveedor.resx">
       <DependentUpon>ActualizarProveedor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ActualizarUsuario.resx">
+    <EmbeddedResource Include="Mantenimientos\ActualizarUsuario.resx">
       <DependentUpon>ActualizarUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BuscarMobiliarioEquipo.resx">
+    <EmbeddedResource Include="Reutilizables\BuscarMobiliarioEquipo.resx">
       <DependentUpon>BuscarMobiliarioEquipo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BuscarUsuario.resx">
+    <EmbeddedResource Include="Reutilizables\BuscarUsuario.resx">
       <DependentUpon>BuscarUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GenerarHojaRuta.resx">
+    <EmbeddedResource Include="Servicios\GenerarHojaRuta.resx">
       <DependentUpon>GenerarHojaRuta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuCajera.resx">
       <DependentUpon>MenuCajera.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RecargarMáquina.resx">
+    <EmbeddedResource Include="Servicios\RecargarMáquina.resx">
       <DependentUpon>RecargarMáquina.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RecargarSaldo.resx">
+    <EmbeddedResource Include="Servicios\RecargarSaldo.resx">
       <DependentUpon>RecargarSaldo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegistrarEmpleado.resx">
+    <EmbeddedResource Include="Mantenimientos\RegistrarEmpleado.resx">
       <DependentUpon>RegistrarEmpleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegistrarMobiliarioEquipo.resx">
+    <EmbeddedResource Include="Mantenimientos\RegistrarMobiliarioEquipo.resx">
       <DependentUpon>RegistrarMobiliarioEquipo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegistrarProveedor.resx">
+    <EmbeddedResource Include="Mantenimientos\RegistrarProveedor.resx">
       <DependentUpon>RegistrarProveedor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegistrarUsuario.resx">
+    <EmbeddedResource Include="Mantenimientos\RegistrarUsuario.resx">
       <DependentUpon>RegistrarUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SolicitudCambio.resx">
+    <EmbeddedResource Include="Calidad\SolicitudCambio.resx">
       <DependentUpon>SolicitudCambio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SolicitudMantenimiento.resx">
+    <EmbeddedResource Include="Calidad\SolicitudMantenimiento.resx">
       <DependentUpon>SolicitudMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TipoUsuario.resx">
+    <EmbeddedResource Include="Mantenimientos\TipoUsuario.resx">
       <DependentUpon>TipoUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ReconocerUsuario.resx">
+    <EmbeddedResource Include="Servicios\ReconocerUsuario.resx">
       <DependentUpon>ReconocerUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GenerarReclamo.resx">
+    <EmbeddedResource Include="Calidad\GenerarReclamo.resx">
       <DependentUpon>GenerarReclamo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
@@ -250,7 +250,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Reportes\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="imágenes\buscar.png" />
     <Content Include="imágenes\fondo.png" />
