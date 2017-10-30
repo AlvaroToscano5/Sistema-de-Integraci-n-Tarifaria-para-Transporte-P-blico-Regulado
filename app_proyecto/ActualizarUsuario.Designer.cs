@@ -51,11 +51,15 @@
             this.btnBuscar = new System.Windows.Forms.Button();
             this.lblEstado = new System.Windows.Forms.Label();
             this.cboEstado = new System.Windows.Forms.ComboBox();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.lblContraseña = new System.Windows.Forms.Label();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.lblUsuario = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(270, 203);
+            this.btnCancelar.Location = new System.Drawing.Point(270, 225);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(139, 26);
             this.btnCancelar.TabIndex = 44;
@@ -200,7 +204,7 @@
             // 
             // btnGrabar
             // 
-            this.btnGrabar.Location = new System.Drawing.Point(125, 203);
+            this.btnGrabar.Location = new System.Drawing.Point(125, 225);
             this.btnGrabar.Name = "btnGrabar";
             this.btnGrabar.Size = new System.Drawing.Size(139, 26);
             this.btnGrabar.TabIndex = 24;
@@ -251,11 +255,49 @@
             this.cboEstado.Size = new System.Drawing.Size(134, 21);
             this.cboEstado.TabIndex = 161;
             // 
+            // txtContraseña
+            // 
+            this.txtContraseña.Location = new System.Drawing.Point(380, 190);
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.Size = new System.Drawing.Size(134, 20);
+            this.txtContraseña.TabIndex = 166;
+            // 
+            // lblContraseña
+            // 
+            this.lblContraseña.AutoSize = true;
+            this.lblContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContraseña.Location = new System.Drawing.Point(266, 188);
+            this.lblContraseña.Name = "lblContraseña";
+            this.lblContraseña.Size = new System.Drawing.Size(100, 20);
+            this.lblContraseña.TabIndex = 165;
+            this.lblContraseña.Text = "Contraseña :";
+            // 
+            // txtUsuario
+            // 
+            this.txtUsuario.Location = new System.Drawing.Point(110, 190);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(130, 20);
+            this.txtUsuario.TabIndex = 164;
+            // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.Location = new System.Drawing.Point(8, 191);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(72, 20);
+            this.lblUsuario.TabIndex = 163;
+            this.lblUsuario.Text = "Usuario :";
+            // 
             // ActualizarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 244);
+            this.ClientSize = new System.Drawing.Size(532, 263);
+            this.Controls.Add(this.txtContraseña);
+            this.Controls.Add(this.lblContraseña);
+            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.lblEstado);
             this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.btnBuscar);
@@ -309,5 +351,9 @@
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Label lblEstado;
         private System.Windows.Forms.ComboBox cboEstado;
+        private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.Label lblContraseña;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.Label lblUsuario;
     }
 }

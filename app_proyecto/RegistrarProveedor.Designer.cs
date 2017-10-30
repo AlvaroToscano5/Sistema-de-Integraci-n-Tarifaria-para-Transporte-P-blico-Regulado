@@ -47,11 +47,13 @@
             this.txtRUC = new System.Windows.Forms.TextBox();
             this.lblRuc = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
+            this.txtCuenta = new System.Windows.Forms.TextBox();
+            this.lblCuenta = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(274, 190);
+            this.btnCancelar.Location = new System.Drawing.Point(275, 216);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(139, 26);
             this.btnCancelar.TabIndex = 112;
@@ -60,7 +62,7 @@
             // 
             // btnGrabar
             // 
-            this.btnGrabar.Location = new System.Drawing.Point(129, 190);
+            this.btnGrabar.Location = new System.Drawing.Point(130, 216);
             this.btnGrabar.Name = "btnGrabar";
             this.btnGrabar.Size = new System.Drawing.Size(139, 26);
             this.btnGrabar.TabIndex = 111;
@@ -69,7 +71,7 @@
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(394, 99);
+            this.txtTelefono.Location = new System.Drawing.Point(394, 122);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(134, 20);
             this.txtTelefono.TabIndex = 110;
@@ -78,7 +80,7 @@
             // 
             this.lblTelefono.AutoSize = true;
             this.lblTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefono.Location = new System.Drawing.Point(280, 97);
+            this.lblTelefono.Location = new System.Drawing.Point(280, 120);
             this.lblTelefono.Name = "lblTelefono";
             this.lblTelefono.Size = new System.Drawing.Size(79, 20);
             this.lblTelefono.TabIndex = 109;
@@ -86,7 +88,7 @@
             // 
             // txtCorreo
             // 
-            this.txtCorreo.Location = new System.Drawing.Point(394, 73);
+            this.txtCorreo.Location = new System.Drawing.Point(394, 96);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(134, 20);
             this.txtCorreo.TabIndex = 108;
@@ -95,7 +97,7 @@
             // 
             this.lblCorreo.AutoSize = true;
             this.lblCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCorreo.Location = new System.Drawing.Point(280, 73);
+            this.lblCorreo.Location = new System.Drawing.Point(280, 96);
             this.lblCorreo.Name = "lblCorreo";
             this.lblCorreo.Size = new System.Drawing.Size(65, 20);
             this.lblCorreo.TabIndex = 107;
@@ -103,7 +105,7 @@
             // 
             // txtEstacion
             // 
-            this.txtEstacion.Location = new System.Drawing.Point(394, 124);
+            this.txtEstacion.Location = new System.Drawing.Point(394, 147);
             this.txtEstacion.Name = "txtEstacion";
             this.txtEstacion.Size = new System.Drawing.Size(134, 20);
             this.txtEstacion.TabIndex = 106;
@@ -112,7 +114,7 @@
             // 
             this.lblCodigo.AutoSize = true;
             this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodigo.Location = new System.Drawing.Point(122, 65);
+            this.lblCodigo.Location = new System.Drawing.Point(130, 65);
             this.lblCodigo.Name = "lblCodigo";
             this.lblCodigo.Size = new System.Drawing.Size(91, 20);
             this.lblCodigo.TabIndex = 104;
@@ -131,7 +133,7 @@
             // cboPais
             // 
             this.cboPais.FormattingEnabled = true;
-            this.cboPais.Location = new System.Drawing.Point(394, 150);
+            this.cboPais.Location = new System.Drawing.Point(394, 173);
             this.cboPais.Name = "cboPais";
             this.cboPais.Size = new System.Drawing.Size(134, 21);
             this.cboPais.TabIndex = 101;
@@ -140,7 +142,7 @@
             // 
             this.lblPais.AutoSize = true;
             this.lblPais.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPais.Location = new System.Drawing.Point(280, 150);
+            this.lblPais.Location = new System.Drawing.Point(280, 173);
             this.lblPais.Name = "lblPais";
             this.lblPais.Size = new System.Drawing.Size(47, 20);
             this.lblPais.TabIndex = 100;
@@ -150,7 +152,7 @@
             // 
             this.lblDireccion.AutoSize = true;
             this.lblDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDireccion.Location = new System.Drawing.Point(280, 124);
+            this.lblDireccion.Location = new System.Drawing.Point(280, 147);
             this.lblDireccion.Name = "lblDireccion";
             this.lblDireccion.Size = new System.Drawing.Size(83, 20);
             this.lblDireccion.TabIndex = 99;
@@ -217,11 +219,30 @@
             this.lblTitulo.TabIndex = 88;
             this.lblTitulo.Text = "REGISTRAR PROVEEDOR";
             // 
+            // txtCuenta
+            // 
+            this.txtCuenta.Location = new System.Drawing.Point(134, 174);
+            this.txtCuenta.Name = "txtCuenta";
+            this.txtCuenta.Size = new System.Drawing.Size(130, 20);
+            this.txtCuenta.TabIndex = 132;
+            // 
+            // lblCuenta
+            // 
+            this.lblCuenta.AutoSize = true;
+            this.lblCuenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCuenta.Location = new System.Drawing.Point(20, 174);
+            this.lblCuenta.Name = "lblCuenta";
+            this.lblCuenta.Size = new System.Drawing.Size(109, 20);
+            this.lblCuenta.TabIndex = 131;
+            this.lblCuenta.Text = "Cta Bancaria :";
+            // 
             // RegistrarProveedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(540, 229);
+            this.ClientSize = new System.Drawing.Size(540, 254);
+            this.Controls.Add(this.txtCuenta);
+            this.Controls.Add(this.lblCuenta);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnGrabar);
             this.Controls.Add(this.txtTelefono);
@@ -269,5 +290,7 @@
         private System.Windows.Forms.TextBox txtRUC;
         private System.Windows.Forms.Label lblRuc;
         private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.TextBox txtCuenta;
+        private System.Windows.Forms.Label lblCuenta;
     }
 }

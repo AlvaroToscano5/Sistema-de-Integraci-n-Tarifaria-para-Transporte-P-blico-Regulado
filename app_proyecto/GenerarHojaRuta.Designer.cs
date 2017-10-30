@@ -70,9 +70,9 @@
             this.lblTransporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTransporte.Location = new System.Drawing.Point(44, 180);
             this.lblTransporte.Name = "lblTransporte";
-            this.lblTransporte.Size = new System.Drawing.Size(128, 18);
+            this.lblTransporte.Size = new System.Drawing.Size(92, 18);
             this.lblTransporte.TabIndex = 50;
-            this.lblTransporte.Text = "Cod. Transporte : ";
+            this.lblTransporte.Text = "Transporte : ";
             // 
             // button3
             // 

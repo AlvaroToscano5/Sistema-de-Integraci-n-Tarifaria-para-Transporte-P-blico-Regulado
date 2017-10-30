@@ -38,13 +38,11 @@
             this.cboTipo = new System.Windows.Forms.ComboBox();
             this.cboEstacion = new System.Windows.Forms.ComboBox();
             this.cboProveedor = new System.Windows.Forms.ComboBox();
-            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.txtMonto = new System.Windows.Forms.TextBox();
             this.txtPrecioUnit = new System.Windows.Forms.TextBox();
             this.txtCantidad = new System.Windows.Forms.TextBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.lblEstado = new System.Windows.Forms.Label();
-            this.lblFecha = new System.Windows.Forms.Label();
             this.lblTipo = new System.Windows.Forms.Label();
             this.lblMonto = new System.Windows.Forms.Label();
             this.lblEstacion = new System.Windows.Forms.Label();
@@ -71,7 +69,7 @@
             // 
             // txtPlaca
             // 
-            this.txtPlaca.Location = new System.Drawing.Point(398, 218);
+            this.txtPlaca.Location = new System.Drawing.Point(398, 191);
             this.txtPlaca.Name = "txtPlaca";
             this.txtPlaca.Size = new System.Drawing.Size(198, 20);
             this.txtPlaca.TabIndex = 111;
@@ -80,7 +78,7 @@
             // 
             this.lblPlaca.AutoSize = true;
             this.lblPlaca.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlaca.Location = new System.Drawing.Point(292, 216);
+            this.lblPlaca.Location = new System.Drawing.Point(292, 189);
             this.lblPlaca.Name = "lblPlaca";
             this.lblPlaca.Size = new System.Drawing.Size(56, 20);
             this.lblPlaca.TabIndex = 110;
@@ -89,7 +87,7 @@
             // cboEstado
             // 
             this.cboEstado.FormattingEnabled = true;
-            this.cboEstado.Location = new System.Drawing.Point(398, 190);
+            this.cboEstado.Location = new System.Drawing.Point(398, 163);
             this.cboEstado.Name = "cboEstado";
             this.cboEstado.Size = new System.Drawing.Size(198, 21);
             this.cboEstado.TabIndex = 109;
@@ -115,7 +113,7 @@
             // cboTipo
             // 
             this.cboTipo.FormattingEnabled = true;
-            this.cboTipo.Location = new System.Drawing.Point(398, 163);
+            this.cboTipo.Location = new System.Drawing.Point(398, 136);
             this.cboTipo.Name = "cboTipo";
             this.cboTipo.Size = new System.Drawing.Size(198, 21);
             this.cboTipo.TabIndex = 105;
@@ -136,16 +134,9 @@
             this.cboProveedor.Size = new System.Drawing.Size(146, 21);
             this.cboProveedor.TabIndex = 103;
             // 
-            // dtpFecha
-            // 
-            this.dtpFecha.Location = new System.Drawing.Point(398, 109);
-            this.dtpFecha.Name = "dtpFecha";
-            this.dtpFecha.Size = new System.Drawing.Size(198, 20);
-            this.dtpFecha.TabIndex = 102;
-            // 
             // txtMonto
             // 
-            this.txtMonto.Location = new System.Drawing.Point(398, 136);
+            this.txtMonto.Location = new System.Drawing.Point(398, 109);
             this.txtMonto.Name = "txtMonto";
             this.txtMonto.Size = new System.Drawing.Size(198, 20);
             this.txtMonto.TabIndex = 101;
@@ -175,27 +166,17 @@
             // 
             this.lblEstado.AutoSize = true;
             this.lblEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstado.Location = new System.Drawing.Point(292, 191);
+            this.lblEstado.Location = new System.Drawing.Point(292, 164);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(68, 20);
             this.lblEstado.TabIndex = 97;
             this.lblEstado.Text = "Estado :";
             // 
-            // lblFecha
-            // 
-            this.lblFecha.AutoSize = true;
-            this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecha.Location = new System.Drawing.Point(292, 109);
-            this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(100, 20);
-            this.lblFecha.TabIndex = 96;
-            this.lblFecha.Text = "Fecha Reg. :";
-            // 
             // lblTipo
             // 
             this.lblTipo.AutoSize = true;
             this.lblTipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipo.Location = new System.Drawing.Point(292, 164);
+            this.lblTipo.Location = new System.Drawing.Point(292, 137);
             this.lblTipo.Name = "lblTipo";
             this.lblTipo.Size = new System.Drawing.Size(47, 20);
             this.lblTipo.TabIndex = 95;
@@ -205,7 +186,7 @@
             // 
             this.lblMonto.AutoSize = true;
             this.lblMonto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMonto.Location = new System.Drawing.Point(292, 136);
+            this.lblMonto.Location = new System.Drawing.Point(292, 109);
             this.lblMonto.Name = "lblMonto";
             this.lblMonto.Size = new System.Drawing.Size(62, 20);
             this.lblMonto.TabIndex = 94;
@@ -323,13 +304,11 @@
             this.Controls.Add(this.cboTipo);
             this.Controls.Add(this.cboEstacion);
             this.Controls.Add(this.cboProveedor);
-            this.Controls.Add(this.dtpFecha);
             this.Controls.Add(this.txtMonto);
             this.Controls.Add(this.txtPrecioUnit);
             this.Controls.Add(this.txtCantidad);
             this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.lblEstado);
-            this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.lblTipo);
             this.Controls.Add(this.lblMonto);
             this.Controls.Add(this.lblEstacion);
@@ -357,13 +336,11 @@
         private System.Windows.Forms.ComboBox cboTipo;
         private System.Windows.Forms.ComboBox cboEstacion;
         private System.Windows.Forms.ComboBox cboProveedor;
-        private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.TextBox txtMonto;
         private System.Windows.Forms.TextBox txtPrecioUnit;
         private System.Windows.Forms.TextBox txtCantidad;
         private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.Label lblEstado;
-        private System.Windows.Forms.Label lblFecha;
         private System.Windows.Forms.Label lblTipo;
         private System.Windows.Forms.Label lblMonto;
         private System.Windows.Forms.Label lblEstacion;

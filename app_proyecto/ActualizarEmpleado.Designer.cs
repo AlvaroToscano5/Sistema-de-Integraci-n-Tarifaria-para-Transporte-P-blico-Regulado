@@ -57,6 +57,10 @@
             this.lblNombre = new System.Windows.Forms.Label();
             this.txtDNI = new System.Windows.Forms.TextBox();
             this.lblDni = new System.Windows.Forms.Label();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.lblContraseña = new System.Windows.Forms.Label();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.lblUsuario = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblActualizar
@@ -71,7 +75,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(263, 270);
+            this.btnCancelar.Location = new System.Drawing.Point(264, 292);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(139, 26);
             this.btnCancelar.TabIndex = 136;
@@ -80,7 +84,7 @@
             // 
             // btnGrabar
             // 
-            this.btnGrabar.Location = new System.Drawing.Point(118, 270);
+            this.btnGrabar.Location = new System.Drawing.Point(119, 292);
             this.btnGrabar.Name = "btnGrabar";
             this.btnGrabar.Size = new System.Drawing.Size(139, 26);
             this.btnGrabar.TabIndex = 135;
@@ -117,7 +121,7 @@
             // 
             this.lblEstado.AutoSize = true;
             this.lblEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstado.Location = new System.Drawing.Point(152, 231);
+            this.lblEstado.Location = new System.Drawing.Point(150, 255);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(68, 20);
             this.lblEstado.TabIndex = 160;
@@ -126,7 +130,7 @@
             // cboEstado
             // 
             this.cboEstado.FormattingEnabled = true;
-            this.cboEstado.Location = new System.Drawing.Point(266, 232);
+            this.cboEstado.Location = new System.Drawing.Point(264, 256);
             this.cboEstado.Name = "cboEstado";
             this.cboEstado.Size = new System.Drawing.Size(134, 21);
             this.cboEstado.TabIndex = 159;
@@ -308,11 +312,49 @@
             this.lblDni.TabIndex = 139;
             this.lblDni.Text = "DNI :";
             // 
+            // txtContraseña
+            // 
+            this.txtContraseña.Location = new System.Drawing.Point(387, 230);
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.Size = new System.Drawing.Size(134, 20);
+            this.txtContraseña.TabIndex = 164;
+            // 
+            // lblContraseña
+            // 
+            this.lblContraseña.AutoSize = true;
+            this.lblContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContraseña.Location = new System.Drawing.Point(273, 228);
+            this.lblContraseña.Name = "lblContraseña";
+            this.lblContraseña.Size = new System.Drawing.Size(100, 20);
+            this.lblContraseña.TabIndex = 163;
+            this.lblContraseña.Text = "Contraseña :";
+            // 
+            // txtUsuario
+            // 
+            this.txtUsuario.Location = new System.Drawing.Point(115, 230);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(130, 20);
+            this.txtUsuario.TabIndex = 162;
+            // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.Location = new System.Drawing.Point(13, 228);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(72, 20);
+            this.lblUsuario.TabIndex = 161;
+            this.lblUsuario.Text = "Usuario :";
+            // 
             // ActualizarEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(533, 308);
+            this.ClientSize = new System.Drawing.Size(533, 331);
+            this.Controls.Add(this.txtContraseña);
+            this.Controls.Add(this.lblContraseña);
+            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.lblEstado);
             this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.txtTelefono);
@@ -377,5 +419,9 @@
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.TextBox txtDNI;
         private System.Windows.Forms.Label lblDni;
+        private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.Label lblContraseña;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.Label lblUsuario;
     }
 }
