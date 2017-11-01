@@ -148,6 +148,6 @@
         private System.Windows.Forms.Label lblMantenimiento;
         private System.Windows.Forms.Button btnMantenimiento;
         private System.Windows.Forms.Button btnActualizar;
-        private System.Windows.Forms.Button btnCambio;
+        public System.Windows.Forms.Button btnCambio;
     }
 }

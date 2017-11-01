@@ -17,23 +17,22 @@ namespace app_proyecto
             InitializeComponent();
         }
 
-        private void btnRegistrar_Click(object sender, EventArgs e)
-        {
-
+        private void btnRegistrar_Click(object sender, EventArgs e) {
+            RegistrarProveedor proveedor = new RegistrarProveedor();
+            proveedor.Show();
         }
 
-        private void btnActualizar_Click(object sender, EventArgs e)
-        {
-
+        private void btnActualizar_Click(object sender, EventArgs e) {
+            ActualizarProveedor proveedor = new ActualizarProveedor();
+            proveedor.Show();
         }
 
-        private void btnMobiliario_Click(object sender, EventArgs e)
-        {
-
+        private void btnMobiliario_Click(object sender, EventArgs e) {
+            RegistrarMobiliarioEquipo mobequip = new RegistrarMobiliarioEquipo();
+            mobequip.Show();
         }
 
-        private void btnCerrar_Click(object sender, EventArgs e)
-        {
+        private void btnCerrar_Click(object sender, EventArgs e) {
 
         }
     }

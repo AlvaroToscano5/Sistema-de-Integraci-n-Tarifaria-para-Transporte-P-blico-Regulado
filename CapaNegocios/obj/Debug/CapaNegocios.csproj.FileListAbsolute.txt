@@ -1,0 +1,9 @@
+C:\Users\i201510050\Desktop\Proyecto PI-I\CapaNegocios\bin\Debug\CapaNegocios.dll
+C:\Users\i201510050\Desktop\Proyecto PI-I\CapaNegocios\bin\Debug\CapaNegocios.pdb
+C:\Users\i201510050\Desktop\Proyecto PI-I\CapaNegocios\bin\Debug\DAO.dll
+C:\Users\i201510050\Desktop\Proyecto PI-I\CapaNegocios\bin\Debug\DAO.pdb
+C:\Users\i201510050\Desktop\Proyecto PI-I\CapaNegocios\obj\Debug\CapaNegocios.csprojResolveAssemblyReference.cache
+C:\Users\i201510050\Desktop\Proyecto PI-I\CapaNegocios\obj\Debug\CapaNegocios.dll
+C:\Users\i201510050\Desktop\Proyecto PI-I\CapaNegocios\obj\Debug\CapaNegocios.pdb
+C:\Users\i201510050\Desktop\Proyecto PI-I\CapaNegocios\bin\Debug\Entidades.dll
+C:\Users\i201510050\Desktop\Proyecto PI-I\CapaNegocios\bin\Debug\Entidades.pdb

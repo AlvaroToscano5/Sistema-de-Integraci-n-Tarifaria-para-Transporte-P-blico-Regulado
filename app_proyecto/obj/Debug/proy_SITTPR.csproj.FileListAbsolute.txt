@@ -82,3 +82,10 @@ C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.Bu
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.RegistrarProveedor.resources
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MenuRecursosHumanos.resources
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MenuServicioTecnico.resources
+C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\CapaNegocios.dll
+C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\DAO.dll
+C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\CapaNegocios.pdb
+C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\DAO.pdb
+C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MenuDepCompras.resources
+C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\Entidades.dll
+C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\Entidades.pdb
