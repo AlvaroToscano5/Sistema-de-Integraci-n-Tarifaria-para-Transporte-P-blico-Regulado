@@ -134,7 +134,7 @@
             this.Controls.Add(this.btnReclamos);
             this.Controls.Add(this.btnSaldos);
             this.Name = "MenuCajera";
-            this.Text = "Menu";
+            this.Text = "Menú";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -142,12 +142,12 @@
 
         #endregion
 
+        private System.Windows.Forms.Label lblSaldos;
+        private System.Windows.Forms.Label lblReclamos;
         private System.Windows.Forms.Button btnSaldos;
         private System.Windows.Forms.Button btnReclamos;
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Label lblActualizar;
-        private System.Windows.Forms.Label lblSaldos;
-        private System.Windows.Forms.Label lblReclamos;
         private System.Windows.Forms.Button btnCerrar;
     }
 }

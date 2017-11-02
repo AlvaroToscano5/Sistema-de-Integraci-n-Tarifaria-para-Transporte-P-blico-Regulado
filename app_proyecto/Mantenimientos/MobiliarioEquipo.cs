@@ -10,18 +10,30 @@ using System.Windows.Forms;
 
 namespace app_proyecto
 {
-    public partial class TipoUsuario : Form
+    public partial class MobiliarioEquipo : Form
     {
-        public TipoUsuario()
+        public MobiliarioEquipo()
         {
             InitializeComponent();
         }
-        
+
         private void btnBuscar_Click(object sender, EventArgs e) {
 
         }
 
-        private void btnGrabar_Click(object sender, EventArgs e) {
+        private void btnRegistrarE_Click(object sender, EventArgs e) {
+
+        }
+
+        private void btnActualizarE_Click(object sender, EventArgs e) {
+
+        }
+
+        private void btnRegistrarM_Click(object sender, EventArgs e) {
+
+        }
+
+        private void btnActualizarM_Click(object sender, EventArgs e) {
 
         }
 

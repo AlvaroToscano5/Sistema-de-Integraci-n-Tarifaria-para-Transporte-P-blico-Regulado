@@ -36,11 +36,13 @@
             this.btnMantenimiento = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnCambio = new System.Windows.Forms.Button();
+            this.lblReportes = new System.Windows.Forms.Label();
+            this.btnReportes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(525, 12);
+            this.btnCerrar.Location = new System.Drawing.Point(684, 12);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(103, 24);
             this.btnCerrar.TabIndex = 20;
@@ -54,7 +56,7 @@
             this.lblActualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(71)))), ((int)(((byte)(95)))));
             this.lblActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblActualizar.ForeColor = System.Drawing.Color.White;
-            this.lblActualizar.Location = new System.Drawing.Point(406, 88);
+            this.lblActualizar.Location = new System.Drawing.Point(397, 88);
             this.lblActualizar.Name = "lblActualizar";
             this.lblActualizar.Size = new System.Drawing.Size(231, 20);
             this.lblActualizar.TabIndex = 19;
@@ -66,7 +68,7 @@
             this.lblCambio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(71)))), ((int)(((byte)(95)))));
             this.lblCambio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCambio.ForeColor = System.Drawing.Color.White;
-            this.lblCambio.Location = new System.Drawing.Point(253, 88);
+            this.lblCambio.Location = new System.Drawing.Point(244, 88);
             this.lblCambio.Name = "lblCambio";
             this.lblCambio.Size = new System.Drawing.Size(139, 20);
             this.lblCambio.TabIndex = 18;
@@ -78,7 +80,7 @@
             this.lblMantenimiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(71)))), ((int)(((byte)(95)))));
             this.lblMantenimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMantenimiento.ForeColor = System.Drawing.Color.White;
-            this.lblMantenimiento.Location = new System.Drawing.Point(21, 88);
+            this.lblMantenimiento.Location = new System.Drawing.Point(12, 88);
             this.lblMantenimiento.Name = "lblMantenimiento";
             this.lblMantenimiento.Size = new System.Drawing.Size(197, 20);
             this.lblMantenimiento.TabIndex = 17;
@@ -89,7 +91,7 @@
             this.btnMantenimiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(71)))), ((int)(((byte)(95)))));
             this.btnMantenimiento.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnMantenimiento.Image = ((System.Drawing.Image)(resources.GetObject("btnMantenimiento.Image")));
-            this.btnMantenimiento.Location = new System.Drawing.Point(46, 111);
+            this.btnMantenimiento.Location = new System.Drawing.Point(37, 111);
             this.btnMantenimiento.Name = "btnMantenimiento";
             this.btnMantenimiento.Size = new System.Drawing.Size(150, 150);
             this.btnMantenimiento.TabIndex = 16;
@@ -101,7 +103,7 @@
             this.btnActualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(71)))), ((int)(((byte)(95)))));
             this.btnActualizar.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnActualizar.Image = ((System.Drawing.Image)(resources.GetObject("btnActualizar.Image")));
-            this.btnActualizar.Location = new System.Drawing.Point(444, 111);
+            this.btnActualizar.Location = new System.Drawing.Point(435, 111);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(150, 150);
             this.btnActualizar.TabIndex = 15;
@@ -113,19 +115,44 @@
             this.btnCambio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(71)))), ((int)(((byte)(95)))));
             this.btnCambio.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnCambio.Image = ((System.Drawing.Image)(resources.GetObject("btnCambio.Image")));
-            this.btnCambio.Location = new System.Drawing.Point(247, 111);
+            this.btnCambio.Location = new System.Drawing.Point(238, 111);
             this.btnCambio.Name = "btnCambio";
             this.btnCambio.Size = new System.Drawing.Size(150, 150);
             this.btnCambio.TabIndex = 14;
             this.btnCambio.UseVisualStyleBackColor = false;
             this.btnCambio.Click += new System.EventHandler(this.btnCambio_Click);
             // 
+            // lblReportes
+            // 
+            this.lblReportes.AutoSize = true;
+            this.lblReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(71)))), ((int)(((byte)(95)))));
+            this.lblReportes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReportes.ForeColor = System.Drawing.Color.White;
+            this.lblReportes.Location = new System.Drawing.Point(626, 88);
+            this.lblReportes.Name = "lblReportes";
+            this.lblReportes.Size = new System.Drawing.Size(154, 20);
+            this.lblReportes.TabIndex = 24;
+            this.lblReportes.Text = "Generar Reportes";
+            // 
+            // btnReportes
+            // 
+            this.btnReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(71)))), ((int)(((byte)(95)))));
+            this.btnReportes.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
+            this.btnReportes.Location = new System.Drawing.Point(628, 111);
+            this.btnReportes.Name = "btnReportes";
+            this.btnReportes.Size = new System.Drawing.Size(150, 150);
+            this.btnReportes.TabIndex = 23;
+            this.btnReportes.UseVisualStyleBackColor = false;
+            // 
             // MenuServicioTecnico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(640, 319);
+            this.ClientSize = new System.Drawing.Size(799, 319);
+            this.Controls.Add(this.lblReportes);
+            this.Controls.Add(this.btnReportes);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.lblActualizar);
             this.Controls.Add(this.lblCambio);
@@ -134,7 +161,7 @@
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnCambio);
             this.Name = "MenuServicioTecnico";
-            this.Text = "MenuServicioTecnico";
+            this.Text = "Menú";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -142,12 +169,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Label lblActualizar;
         private System.Windows.Forms.Label lblCambio;
         private System.Windows.Forms.Label lblMantenimiento;
+        private System.Windows.Forms.Label lblReportes;
         private System.Windows.Forms.Button btnMantenimiento;
         private System.Windows.Forms.Button btnActualizar;
-        public System.Windows.Forms.Button btnCambio;
+        public System.Windows.Forms.Button btnReportes;
+        private System.Windows.Forms.Button btnCambio;
+        private System.Windows.Forms.Button btnCerrar;
     }
 }

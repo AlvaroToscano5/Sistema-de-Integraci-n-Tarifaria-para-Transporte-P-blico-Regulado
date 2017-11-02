@@ -226,6 +226,7 @@
             this.btnGrabar.TabIndex = 23;
             this.btnGrabar.Text = "Grabar";
             this.btnGrabar.UseVisualStyleBackColor = true;
+            this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
             // 
             // btnCancelar
             // 
@@ -235,6 +236,7 @@
             this.btnCancelar.TabIndex = 24;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnImprimir
             // 
@@ -244,6 +246,7 @@
             this.btnImprimir.TabIndex = 25;
             this.btnImprimir.Text = "Imprimir";
             this.btnImprimir.UseVisualStyleBackColor = true;
+            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
             // 
             // cboTipo
             // 
@@ -279,6 +282,7 @@
             this.btnBuscar.Size = new System.Drawing.Size(27, 27);
             this.btnBuscar.TabIndex = 139;
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // GenerarReclamo
             // 
@@ -312,6 +316,7 @@
             this.Controls.Add(this.lblTitulo);
             this.Name = "GenerarReclamo";
             this.Text = "Generar Reclamo";
+            this.Load += new System.EventHandler(this.GenerarReclamo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

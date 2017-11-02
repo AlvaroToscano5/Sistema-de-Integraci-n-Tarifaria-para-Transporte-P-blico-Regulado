@@ -17,8 +17,23 @@ namespace app_proyecto
             InitializeComponent();
         }
 
-        private void SolicitudCambio_Load(object sender, EventArgs e)
-        {
+        private void SolicitudCambio_Load(object sender, EventArgs e) {
+
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e) {
+
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e) {
+
+        }
+
+        private void btnGrabar_Click(object sender, EventArgs e) {
+
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e) {
 
         }
     }

@@ -110,6 +110,7 @@
             this.btnGrabar.TabIndex = 140;
             this.btnGrabar.Text = "Grabar";
             this.btnGrabar.UseVisualStyleBackColor = true;
+            this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
             // 
             // btnAgregar
             // 
@@ -119,6 +120,7 @@
             this.btnAgregar.TabIndex = 139;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // dgvMantenimiento
             // 
@@ -163,6 +165,7 @@
             this.btnCancelar.TabIndex = 147;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // cboEstado
             // 
@@ -190,6 +193,7 @@
             this.btnBuscar.Size = new System.Drawing.Size(27, 27);
             this.btnBuscar.TabIndex = 150;
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // SolicitudMantenimiento
             // 
@@ -214,6 +218,7 @@
             this.Controls.Add(this.lblTitulo);
             this.Name = "SolicitudMantenimiento";
             this.Text = "Solicitud de Mantenimiento";
+            this.Load += new System.EventHandler(this.SolicitudMantenimiento_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMantenimiento)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

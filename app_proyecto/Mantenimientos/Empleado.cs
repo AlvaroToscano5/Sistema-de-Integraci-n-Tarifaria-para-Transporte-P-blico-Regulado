@@ -10,26 +10,22 @@ using System.Windows.Forms;
 
 namespace app_proyecto
 {
-    public partial class GenerarReclamo : Form
+    public partial class Empleado : Form
     {
-        public GenerarReclamo()
+        public Empleado()
         {
             InitializeComponent();
         }
-        private void GenerarReclamo_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void btnBuscar_Click(object sender, EventArgs e) {
 
         }
 
-        private void btnGrabar_Click(object sender, EventArgs e) {
+        private void btnRegistrar_Click(object sender, EventArgs e) {
 
         }
 
-        private void btnImprimir_Click(object sender, EventArgs e) {
+        private void btnActualizar_Click(object sender, EventArgs e) {
 
         }
 

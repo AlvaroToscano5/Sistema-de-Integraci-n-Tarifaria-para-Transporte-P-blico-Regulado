@@ -18,24 +18,18 @@ namespace app_proyecto
         }
 
         private void btnActualizar_Click(object sender, EventArgs e) {
-
             TipoUsuario tipousuario = new TipoUsuario();
             tipousuario.Show();
-
         }
 
         private void btnSaldos_Click(object sender, EventArgs e) {
-
             RecargarSaldo saldo = new RecargarSaldo();
             saldo.Show();
-
         }
 
         private void btnReclamos_Click(object sender, EventArgs e) {
-
             GenerarReclamo reclamo = new GenerarReclamo();
             reclamo.Show();
-
         }
 
         private void btnCerrar_Click(object sender, EventArgs e) {

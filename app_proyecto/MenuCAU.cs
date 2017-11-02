@@ -10,25 +10,25 @@ using System.Windows.Forms;
 
 namespace app_proyecto
 {
-    public partial class MenuRecursosHumanos : Form
+    public partial class MenuCAU : Form
     {
-        public MenuRecursosHumanos()
+        public MenuCAU()
         {
             InitializeComponent();
         }
 
         private void btnRegistrar_Click(object sender, EventArgs e) {
-            Empleado empleado = new Empleado();
-            empleado.Show();
+            Usuario usuario = new Usuario();
+            usuario.Show();
             habilitarRegistro();
         }
         
         private void btnActualizar_Click(object sender, EventArgs e) {
-            Empleado empleado = new Empleado();
-            empleado.Show();
+            Usuario usuario = new Usuario();
+            usuario.Show();
             habilitarActualizacion();
         }
-        
+
         private void btnReportes_Click(object sender, EventArgs e) {
 
         }
@@ -40,14 +40,16 @@ namespace app_proyecto
         }
 
         private void habilitarRegistro() {
-            Empleado empleado = new Empleado();
-            empleado.btnBuscar.Enabled = !empleado.btnBuscar.Enabled;
-            empleado.btnActualizar.Enabled = !empleado.btnActualizar.Enabled;
+            Usuario usuario = new Usuario();
+            usuario.btnBuscar.Enabled = !usuario.btnBuscar.Enabled;
+            usuario.btnActualizar.Enabled = usuario.btnActualizar.Enabled;
         }
 
         private void habilitarActualizacion() {
-            Empleado empleado = new Empleado();
-            empleado.btnRegistrar.Enabled = !empleado.btnRegistrar.Enabled;
+            Usuario usuario = new Usuario();
+            usuario.btnPeruano.Enabled = !usuario.btnPeruano.Enabled;
+            usuario.btnExtranjero.Enabled = !usuario.btnExtranjero.Enabled;
+            usuario.btnRegistrar.Enabled = !usuario.btnRegistrar.Enabled;
         }
     }
 }

@@ -28,15 +28,20 @@ namespace app_proyecto
         }
 
         private void btnActualizar_Click(object sender, EventArgs e) {
-            ActualizarMobiliarioEquipo mobequip = new ActualizarMobiliarioEquipo();
+            MobiliarioEquipo mobequip = new MobiliarioEquipo();
             mobequip.Show();
+            habilitarActualizacion();
         }
-
+        
         private void btnCerrar_Click(object sender, EventArgs e) {
             Login login = new Login();
             login.Show();
             this.Hide();
         }
-
+        private void habilitarActualizacion() {
+            MobiliarioEquipo mobequip = new MobiliarioEquipo();
+            mobequip.btnRegistrarE.Enabled = !mobequip.btnRegistrarE.Enabled;
+            mobequip.btnRegistrarM.Enabled = !mobequip.btnRegistrarM.Enabled;
+        }
     }
 }

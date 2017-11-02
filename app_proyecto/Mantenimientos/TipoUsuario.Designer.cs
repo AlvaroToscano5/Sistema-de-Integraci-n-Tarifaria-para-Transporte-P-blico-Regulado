@@ -71,6 +71,7 @@
             this.btnGrabar.TabIndex = 6;
             this.btnGrabar.Text = "Grabar";
             this.btnGrabar.UseVisualStyleBackColor = true;
+            this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
             // 
             // btnCancelar
             // 
@@ -80,6 +81,7 @@
             this.btnCancelar.TabIndex = 7;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // txtDni
             // 
@@ -139,6 +141,7 @@
             this.btnBuscar.Size = new System.Drawing.Size(27, 27);
             this.btnBuscar.TabIndex = 139;
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // TipoUsuario
             // 
@@ -158,7 +161,6 @@
             this.Controls.Add(this.lblTitulo);
             this.Name = "TipoUsuario";
             this.Text = "Tipo de Usuario";
-            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuario)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

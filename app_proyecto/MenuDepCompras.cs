@@ -18,22 +18,49 @@ namespace app_proyecto
         }
 
         private void btnRegistrar_Click(object sender, EventArgs e) {
-            RegistrarProveedor proveedor = new RegistrarProveedor();
+            Proveedor proveedor = new Proveedor();
             proveedor.Show();
+            habilitarRegistro();
         }
-
+        
         private void btnActualizar_Click(object sender, EventArgs e) {
-            ActualizarProveedor proveedor = new ActualizarProveedor();
+            Proveedor proveedor = new Proveedor();
             proveedor.Show();
+            habilitarActualizacion();
         }
-
+        
         private void btnMobiliario_Click(object sender, EventArgs e) {
-            RegistrarMobiliarioEquipo mobequip = new RegistrarMobiliarioEquipo();
+            MobiliarioEquipo mobequip = new MobiliarioEquipo();
             mobequip.Show();
+            habilitarRegistroMob();
+        }
+        
+        private void btnReportes_Click(object sender, EventArgs e) {
+
         }
 
         private void btnCerrar_Click(object sender, EventArgs e) {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+        }
 
+        private void habilitarRegistro() {
+            Proveedor proveedor = new Proveedor();
+            proveedor.btnBuscar.Enabled = !proveedor.btnBuscar.Enabled;
+            proveedor.btnActualizar.Enabled = !proveedor.btnActualizar.Enabled;
+        }
+
+        private void habilitarActualizacion() {
+            Proveedor proveedor = new Proveedor();
+            proveedor.btnRegistrar.Enabled = !proveedor.btnRegistrar.Enabled;
+        }
+
+        private void habilitarRegistroMob() {
+            MobiliarioEquipo mobequip = new MobiliarioEquipo();
+            mobequip.btnBuscar.Enabled = !mobequip.btnBuscar.Enabled;
+            mobequip.btnActualizarE.Enabled = !mobequip.btnActualizarE.Enabled;
+            mobequip.btnActualizarM.Enabled = !mobequip.btnActualizarM.Enabled;
         }
     }
 }

@@ -84,6 +84,7 @@
             this.btnCancelar.TabIndex = 162;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // txtDescripcion
             // 
@@ -137,6 +138,7 @@
             this.btnGrabar.TabIndex = 155;
             this.btnGrabar.Text = "Grabar";
             this.btnGrabar.UseVisualStyleBackColor = true;
+            this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
             // 
             // btnAgregar
             // 
@@ -146,6 +148,7 @@
             this.btnAgregar.TabIndex = 154;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // dgvMantenimiento
             // 
@@ -190,6 +193,7 @@
             this.btnBuscar.Size = new System.Drawing.Size(27, 27);
             this.btnBuscar.TabIndex = 165;
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // SolicitudCambio
             // 
