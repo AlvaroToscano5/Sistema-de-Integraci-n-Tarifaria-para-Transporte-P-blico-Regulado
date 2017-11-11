@@ -9,14 +9,15 @@ using DAO;
 
 namespace CapaNegocios
 {
-    public class EmpleadoNegocio
-    {
-
+    public class EmpleadoNegocio {
         EmpleadoDAO empleado = new EmpleadoDAO();
 
-        public DataTable iniciarSesion(String usuario, String contraseña)
-        {
+        public DataTable iniciarSesion(String usuario, String contraseña) {
             return empleado.iniciarSesion(usuario, contraseña);
+        }
+
+        public string registrar(EmpleadoEntity emp) {
+            return empleado.registrar(emp);
         }
     }
 }

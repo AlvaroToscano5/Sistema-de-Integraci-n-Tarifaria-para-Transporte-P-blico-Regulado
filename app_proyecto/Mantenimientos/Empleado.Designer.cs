@@ -62,11 +62,11 @@
             this.btnBuscar = new System.Windows.Forms.Button();
             this.gbDatos = new System.Windows.Forms.GroupBox();
             this.gbEmpresa = new System.Windows.Forms.GroupBox();
-            this.btnRegistrar = new System.Windows.Forms.Button();
-            this.lblArea = new System.Windows.Forms.Label();
-            this.cboArea = new System.Windows.Forms.ComboBox();
             this.cboTipo = new System.Windows.Forms.ComboBox();
             this.lblTipo = new System.Windows.Forms.Label();
+            this.lblArea = new System.Windows.Forms.Label();
+            this.cboArea = new System.Windows.Forms.ComboBox();
+            this.btnRegistrar = new System.Windows.Forms.Button();
             this.gbCodigo.SuspendLayout();
             this.gbDatos.SuspendLayout();
             this.gbEmpresa.SuspendLayout();
@@ -88,9 +88,9 @@
             this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCodigo.Location = new System.Drawing.Point(109, 25);
             this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(92, 20);
+            this.lblCodigo.Size = new System.Drawing.Size(101, 20);
             this.lblCodigo.TabIndex = 79;
-            this.lblCodigo.Text = "E00000001";
+            this.lblCodigo.Text = "E000000012";
             // 
             // lblNumero
             // 
@@ -401,15 +401,23 @@
             this.gbEmpresa.TabStop = false;
             this.gbEmpresa.Text = "Datos Empresa";
             // 
-            // btnRegistrar
+            // cboTipo
             // 
-            this.btnRegistrar.Location = new System.Drawing.Point(22, 398);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(139, 26);
-            this.btnRegistrar.TabIndex = 97;
-            this.btnRegistrar.Text = "Registrar";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
+            this.cboTipo.FormattingEnabled = true;
+            this.cboTipo.Location = new System.Drawing.Point(335, 72);
+            this.cboTipo.Name = "cboTipo";
+            this.cboTipo.Size = new System.Drawing.Size(134, 21);
+            this.cboTipo.TabIndex = 97;
+            // 
+            // lblTipo
+            // 
+            this.lblTipo.AutoSize = true;
+            this.lblTipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTipo.Location = new System.Drawing.Point(261, 73);
+            this.lblTipo.Name = "lblTipo";
+            this.lblTipo.Size = new System.Drawing.Size(47, 20);
+            this.lblTipo.TabIndex = 96;
+            this.lblTipo.Text = "Tipo :";
             // 
             // lblArea
             // 
@@ -429,23 +437,15 @@
             this.cboArea.Size = new System.Drawing.Size(134, 21);
             this.cboArea.TabIndex = 94;
             // 
-            // cboTipo
+            // btnRegistrar
             // 
-            this.cboTipo.FormattingEnabled = true;
-            this.cboTipo.Location = new System.Drawing.Point(335, 72);
-            this.cboTipo.Name = "cboTipo";
-            this.cboTipo.Size = new System.Drawing.Size(134, 21);
-            this.cboTipo.TabIndex = 97;
-            // 
-            // lblTipo
-            // 
-            this.lblTipo.AutoSize = true;
-            this.lblTipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipo.Location = new System.Drawing.Point(261, 73);
-            this.lblTipo.Name = "lblTipo";
-            this.lblTipo.Size = new System.Drawing.Size(47, 20);
-            this.lblTipo.TabIndex = 96;
-            this.lblTipo.Text = "Tipo :";
+            this.btnRegistrar.Location = new System.Drawing.Point(22, 398);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(139, 26);
+            this.btnRegistrar.TabIndex = 97;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // Empleado
             // 
@@ -461,6 +461,7 @@
             this.Controls.Add(this.lblTitulo);
             this.Name = "Empleado";
             this.Text = "Empleado";
+            this.Load += new System.EventHandler(this.Empleado_Load);
             this.gbCodigo.ResumeLayout(false);
             this.gbCodigo.PerformLayout();
             this.gbDatos.ResumeLayout(false);

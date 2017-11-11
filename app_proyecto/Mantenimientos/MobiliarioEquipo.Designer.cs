@@ -387,6 +387,7 @@
             this.Controls.Add(this.lblTitulo);
             this.Name = "MobiliarioEquipo";
             this.Text = "Mobiliario/Equipo";
+            this.Load += new System.EventHandler(this.MobiliarioEquipo_Load);
             this.gbCodigo.ResumeLayout(false);
             this.gbCodigo.PerformLayout();
             this.gbDatos.ResumeLayout(false);

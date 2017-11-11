@@ -2,3 +2,4 @@ C:\Users\i201510050\Desktop\Proyecto PI-I\Entidades\bin\Debug\Entidades.dll
 C:\Users\i201510050\Desktop\Proyecto PI-I\Entidades\bin\Debug\Entidades.pdb
 C:\Users\i201510050\Desktop\Proyecto PI-I\Entidades\obj\Debug\Entidades.dll
 C:\Users\i201510050\Desktop\Proyecto PI-I\Entidades\obj\Debug\Entidades.pdb
+C:\Users\i201510050\Desktop\Proyecto PI-I\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache

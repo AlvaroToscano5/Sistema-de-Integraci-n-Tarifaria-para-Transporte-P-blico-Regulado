@@ -17,6 +17,10 @@ namespace app_proyecto
             InitializeComponent();
         }
 
+        private void Usuario_Load(object sender, EventArgs e) {
+
+        }
+
         private void btnPeruano_Click(object sender, EventArgs e) {
 
         }
@@ -39,6 +43,5 @@ namespace app_proyecto
         private void btnCancelar_Click(object sender, EventArgs e) {
 
         }
-
     }
 }

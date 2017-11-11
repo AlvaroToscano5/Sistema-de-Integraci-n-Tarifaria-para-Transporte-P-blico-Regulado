@@ -315,6 +315,7 @@
             this.Controls.Add(this.lblTitulo);
             this.Name = "Proveedor";
             this.Text = "Proveedor";
+            this.Load += new System.EventHandler(this.Proveedor_Load);
             this.gbCodigo.ResumeLayout(false);
             this.gbCodigo.PerformLayout();
             this.gbProveedor.ResumeLayout(false);

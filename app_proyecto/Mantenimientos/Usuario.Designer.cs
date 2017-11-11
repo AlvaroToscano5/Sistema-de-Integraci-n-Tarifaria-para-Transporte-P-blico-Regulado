@@ -400,6 +400,7 @@
             this.Controls.Add(this.lblTitulo);
             this.Name = "Usuario";
             this.Text = "Usuario";
+            this.Load += new System.EventHandler(this.Usuario_Load);
             this.gbCodigo.ResumeLayout(false);
             this.gbCodigo.PerformLayout();
             this.gbDatos.ResumeLayout(false);

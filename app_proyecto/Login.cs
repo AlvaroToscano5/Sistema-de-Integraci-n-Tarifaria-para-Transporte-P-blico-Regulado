@@ -107,8 +107,9 @@ namespace app_proyecto
                             MessageBox.Show("Bienvenido Administrador: " + dt.Rows[0][3].ToString() + " " + dt.Rows[0][4].ToString());
                         }
                         else {
-                            //Menu Gerente General
-                            MessageBox.Show("Bienvenido Administrador: " + dt.Rows[0][3].ToString() + " " + dt.Rows[0][4].ToString());
+                            MenuGerencia gerencia = new MenuGerencia();
+                            gerencia.Show();
+                            MessageBox.Show("Bienvenido Gerente General: " + dt.Rows[0][3].ToString() + " " + dt.Rows[0][4].ToString());
                         }
                     }
                 }

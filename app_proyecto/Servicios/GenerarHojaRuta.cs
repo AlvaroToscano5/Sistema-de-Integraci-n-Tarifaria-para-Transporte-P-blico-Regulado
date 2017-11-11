@@ -16,6 +16,29 @@ namespace app_proyecto
         {
             InitializeComponent();
         }
-        
+
+        private void GenerarHojaRuta_Load(object sender, EventArgs e) {
+
+        }
+
+        private void btnChofer_Click(object sender, EventArgs e) {
+
+        }
+
+        private void btnTransporte_Click(object sender, EventArgs e) {
+
+        }
+
+        private void btnGrabar_Click(object sender, EventArgs e) {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e) {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e) {
+
+        }
     }
 }

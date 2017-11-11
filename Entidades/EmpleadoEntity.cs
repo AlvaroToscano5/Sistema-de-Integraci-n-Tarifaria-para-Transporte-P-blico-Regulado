@@ -13,7 +13,7 @@ namespace Entidades
         public string apellidos { get; set; }
         public string sexo { get; set; }
         public string correo { get; set; }
-        public string edad { get; set; }
+        public int edad { get; set; }
         public string direccion { get; set; }
         public string telefono { get; set; }
         public string usuario { get; set; }
@@ -23,5 +23,6 @@ namespace Entidades
         public string tipo { get; set; }
         public string estado { get; set; }
         public string estacion { get; set; }
+        public string area { get; set; }
     }
 }

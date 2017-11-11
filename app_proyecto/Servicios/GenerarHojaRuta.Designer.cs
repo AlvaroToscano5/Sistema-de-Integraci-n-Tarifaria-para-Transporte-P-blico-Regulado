@@ -82,6 +82,7 @@
             this.button3.TabIndex = 49;
             this.button3.Text = "Cancelar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -91,6 +92,7 @@
             this.button2.TabIndex = 48;
             this.button2.Text = "Imprimir";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnGrabar
             // 
@@ -100,6 +102,7 @@
             this.btnGrabar.TabIndex = 47;
             this.btnGrabar.Text = "Grabar";
             this.btnGrabar.UseVisualStyleBackColor = true;
+            this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
             // 
             // dataGridView1
             // 
@@ -268,6 +271,7 @@
             this.btnChofer.Size = new System.Drawing.Size(27, 27);
             this.btnChofer.TabIndex = 139;
             this.btnChofer.UseVisualStyleBackColor = true;
+            this.btnChofer.Click += new System.EventHandler(this.btnChofer_Click);
             // 
             // btnTransporte
             // 
@@ -277,6 +281,7 @@
             this.btnTransporte.Size = new System.Drawing.Size(27, 27);
             this.btnTransporte.TabIndex = 140;
             this.btnTransporte.UseVisualStyleBackColor = true;
+            this.btnTransporte.Click += new System.EventHandler(this.btnTransporte_Click);
             // 
             // GenerarHojaRuta
             // 
@@ -310,6 +315,7 @@
             this.Controls.Add(this.lblTitulo);
             this.Name = "GenerarHojaRuta";
             this.Text = "Hoja de Ruta";
+            this.Load += new System.EventHandler(this.GenerarHojaRuta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
