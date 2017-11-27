@@ -28,20 +28,12 @@ C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\app_proyecto.ex
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\app_proyecto.exe
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\app_proyecto.pdb
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\proy_SITTPR.csprojResolveAssemblyReference.cache
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.GenerarHojaRuta.resources
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.RecargarMáquina.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.RecargarSaldo.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.SolicitudCambio.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.SolicitudMantenimiento.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.TipoUsuario.resources
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.ReconocerUsuario.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.GenerarReclamo.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.Login.resources
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.Properties.Resources.resources
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\proy_SITTPR.csproj.GenerateResource.Cache
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.exe
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.pdb
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MenuCajera.resources
 F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\bin\Debug\app_proyecto.exe.config
 F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.exe
 F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.pdb
@@ -70,21 +62,9 @@ F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.GenerarR
 F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.Login.resources
 F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\app_proyecto.Properties.Resources.resources
 F:\3. Ciclo V\PII\Proyecto\Programa\app_proyecto\obj\Debug\proy_SITTPR.csproj.GenerateResource.Cache
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.BuscarMobiliarioEquipo.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.BuscarUsuario.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MenuRecursosHumanos.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MenuServicioTecnico.resources
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\CapaNegocios.dll
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\DAO.dll
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\CapaNegocios.pdb
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\DAO.pdb
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MenuDepCompras.resources
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\Entidades.dll
 C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\bin\Debug\Entidades.pdb
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MenuCAU.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MenuGerencia.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MenuAdministrador.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.Empleado.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.MobiliarioEquipo.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.Proveedor.resources
-C:\Users\i201510050\Desktop\Proyecto PI-I\app_proyecto\obj\Debug\app_proyecto.Usuario.resources

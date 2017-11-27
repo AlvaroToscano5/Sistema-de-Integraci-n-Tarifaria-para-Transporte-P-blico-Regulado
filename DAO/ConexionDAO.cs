@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace DAO
 {
-    public class ConexionDAO {
+    public class conexionDAO {
         public SqlConnection getcn = new SqlConnection("server=.;database=BD_SITTPR;uid=sa;pwd=sql");
     }
 }
